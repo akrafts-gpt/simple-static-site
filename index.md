@@ -5,4 +5,4 @@ This is the home page of my simple static website. Navigate through the pages to
 
 - [About](about/index.md)
 - [Contact](contact/index.md)
-- [Blog](blog/first-post.md)
+- [Personal Virtual Embassy](personal_virtual_embassy/index.md)
