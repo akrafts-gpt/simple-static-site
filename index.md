@@ -8,3 +8,4 @@ This is the home page of my simple static website. Navigate through the pages to
 - [Gourmet vending](/gourmet/index.md)
 - [AEROLINK](/aerolink/index.md)
 - [Fly in cloud](/fly/index.md)
+- [Echo Board](/echo/index.md)
