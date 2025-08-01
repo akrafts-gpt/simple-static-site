@@ -3,7 +3,7 @@ title: "AEROLINK: Rethinking Vertical Cities with a 3D Cable-Pod Transit Mesh"
 date: 2025-08-01
 ---
 
-![Elevated urban connectivity concept](https://upload.wikimedia.org/wikipedia/commons/0/03/Raffles_City_Chongqing_%28cropped%29.jpg)
+![Elevated urban connectivity concept](https://lh3.googleusercontent.com/pw/AP1GczPDbkzUWr6gW_SgZqfqW0yLvnzkcbj5ubWZLK0d2rgbdmlWb3SNJekLMfVotSQWO-2-1u8EXl4JGpm7nkrRpLUw3GYEmIkIYqgb5tT3vEDeGjRh_KbMsCTiwLrVvp_mL7y2x7_E7VIMIkBdDJj3Iw10Zg=w1521-h2027-s-no-gm)
 *Header image example: large-scale elevated connector (Raffles City Chongqing). The vision here is intentionally lighter, modular, and scalable.*  
 
 ## Introduction
