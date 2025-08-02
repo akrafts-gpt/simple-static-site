@@ -1,8 +1,4 @@
 ---
-layout: default
----
-
----
 title: "AEROLINK: Rethinking Vertical Cities with a 3D Cable-Pod Transit Mesh"
 date: 2025-08-01
 ---
@@ -121,7 +117,7 @@ This is how cities can grow not just outward, or upward, but **together** — a 
         data-reactions-enabled="1"
         data-emit-metadata="1"
         data-input-position="bottom"
-        data-theme="preferred_color_scheme"
+        data-theme="light"
         data-lang="en"
         data-loading="lazy"
         crossorigin="anonymous"
