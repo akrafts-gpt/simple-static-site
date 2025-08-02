@@ -8,20 +8,17 @@ Feel free to look around and see what I'm working on.
 
 ---
 
-<script src="https://giscus.app/client.js"
-        data-repo="akrafts-gpt/simple-static-site"
-        data-repo-id="R_kgDOPWwKHQ"
-        data-category="Ideas"
-        data-category-id="DIC_kwDOPWwKHc4CtsPi"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="1"
-        data-input-position="bottom"
-        data-theme="light"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
 
+
+
+
+<!-- Alex Krafts Instagram profile – shows latest posts in a grid -->
+<blockquote class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/alex_krafts/"
+          data-instgrm-version="14"></blockquote>
+
+<script async src="//www.instagram.com/embed.js"></script>
+
+<!-- Google Calendar Appointment Scheduling begin -->
+<iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0bp_FZKlRq5El7y6_DJ9TG7PGFovWcz4QaeUrxmS_9KIzYjbj26_JKyki0oUtNWqUqqRpJ-UpD?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+<!-- end Google Calendar Appointment Scheduling -->
