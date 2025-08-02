@@ -37,19 +37,48 @@
 - Google Maps & social apps lack:
   - Booking / reservation flows  
   - Time-slot discounts (à la **The Fork**)  
-  - Flash-sale surplus clearing (à la **Too Good To Go**/ **Karma**)  
+  - Flash-sale surplus clearing (à la **Too Good To Go** / **Karma**)  
   - Cross-industry promos (barbers, retail, dentists…)
 
 ---
 
 ## 3. Market Research — Where Today’s Bad Sites Come From
-| Source | Typical Tools / Traits | Quality Issues |
-|--------|-----------------------|----------------|
-| **DIY Site Builders** (Wix, Jimdo, Hostinger, SiteW) | Drag-and-drop, owner-built | Generic look, poor SEO |
-| **Freelancers** | WordPress/Joomla with cheap themes | Varies wildly; updates ignored |
-| **Small Digital Agencies** | “All-in-one” bundles | OK design, pricey for micro-SMBs |
-| **Business-Directory Spin-offs** | Yalwa, tiny local portals | Single-page, minimal info |
-| **No Site (PDF / Doc)** | Menu only | Zero interactivity or analytics |
+<table>
+  <thead>
+    <tr>
+      <th>Source</th>
+      <th>Typical Tools / Traits</th>
+      <th>Quality Issues</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>DIY Site Builders</strong> (Wix, Jimdo, Hostinger, SiteW)</td>
+      <td>Drag-and-drop, owner-built</td>
+      <td>Generic look, poor SEO</td>
+    </tr>
+    <tr>
+      <td><strong>Freelancers</strong></td>
+      <td>WordPress/Joomla with cheap themes</td>
+      <td>Quality varies; updates ignored</td>
+    </tr>
+    <tr>
+      <td><strong>Small Digital Agencies</strong></td>
+      <td>“All-in-one” bundles</td>
+      <td>OK design, pricey for micro-SMBs</td>
+    </tr>
+    <tr>
+      <td><strong>Business-Directory Spin-offs</strong></td>
+      <td>Yalwa, tiny local portals</td>
+      <td>Single-page, minimal info</td>
+    </tr>
+    <tr>
+      <td><strong>No Site (PDF / Doc)</strong></td>
+      <td>Menu only</td>
+      <td>Zero interactivity or analytics</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -72,34 +101,102 @@
 ---
 
 ## 5. Cross-Business Promotion & Dynamic Offers
-| Inspiration | What It Does | Cross-Industry Idea |
-|-------------|--------------|---------------------|
-| **The Fork** | Off-peak dining discounts & coins | Barber “happy hour”, dentist weekday slots |
-| **Too Good To Go / Karma** | Surplus-food boxes | Retail clearance, florist day-old bouquets |
-| **Loyalty Apps** | Points for repeat diners | Unified wallet across cafés, gyms, salons |
-
-Marketplace links every mini-site to live multi-sector offers.
+<table>
+  <thead>
+    <tr>
+      <th>Inspiration</th>
+      <th>What It Does</th>
+      <th>Cross-Industry Idea</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>The Fork</strong></td>
+      <td>Off-peak dining discounts &amp; coins</td>
+      <td>Barber “happy hour”, dentist weekday slots</td>
+    </tr>
+    <tr>
+      <td><strong>Too Good To Go / Karma</strong></td>
+      <td>Surplus-food boxes</td>
+      <td>Retail clearance, florist day-old bouquets</td>
+    </tr>
+    <tr>
+      <td><strong>Loyalty Apps</strong></td>
+      <td>Points for repeat diners</td>
+      <td>Unified wallet across cafés, gyms, salons</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 ## 6. Business Model & Pricing
-| Tier | Price | Includes | Notes |
-|------|-------|----------|-------|
-| **Free** | €0 | Instant site, booking link, platform badge | No third-party ads |
-| **Starter** | Low €/mo | Badge removal, extra templates, analytics lite | Up to X bookings |
-| **Growth** | Mid €/mo | Custom domain, SEO, loyalty engine | Priority support |
-| **Pro** | High €/mo or % | API, full white-label | Hide marketplace link |
-
-Usage-based triggers (visits, bookings) prompt upgrades.
+<table>
+  <thead>
+    <tr>
+      <th>Tier</th>
+      <th>Price</th>
+      <th>Includes</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Free</strong></td>
+      <td>€0</td>
+      <td>Instant site, booking link, platform badge</td>
+      <td>No third-party ads</td>
+    </tr>
+    <tr>
+      <td><strong>Starter</strong></td>
+      <td>Low €/mo</td>
+      <td>Badge removal, extra templates, analytics lite</td>
+      <td>Up to X bookings</td>
+    </tr>
+    <tr>
+      <td><strong>Growth</strong></td>
+      <td>Mid €/mo</td>
+      <td>Custom domain, SEO, loyalty engine</td>
+      <td>Priority support</td>
+    </tr>
+    <tr>
+      <td><strong>Pro</strong></td>
+      <td>High €/mo or %</td>
+      <td>API, full white-label</td>
+      <td>Hide marketplace link</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 ## 7. Benefits by Stakeholder
-| Stakeholder | Pain Today | Benefit |
-|-------------|-----------|---------|
-| **Owners** | Tech hassle, outdated data | Zero-code site, curated Maps, leads |
-| **Customers** | Confusion, stale info | Clean data, live deals, easy booking |
-| **Platform** | — | Scalable AI site-gen, recurring revenue |
+<table>
+  <thead>
+    <tr>
+      <th>Stakeholder</th>
+      <th>Pain Today</th>
+      <th>Benefit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Owners</strong></td>
+      <td>Tech hassle, outdated data</td>
+      <td>Zero-code site, curated Maps, leads</td>
+    </tr>
+    <tr>
+      <td><strong>Customers</strong></td>
+      <td>Confusion, stale info</td>
+      <td>Clean data, live deals, easy booking</td>
+    </tr>
+    <tr>
+      <td><strong>Platform</strong></td>
+      <td>—</td>
+      <td>Scalable AI site-gen, recurring revenue</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
