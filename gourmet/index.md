@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Lazy Gourmet: Standardized Smart-Meal Pods + Automated Cooking
 
 A simple, high-leverage idea: combine unified frozen meal packaging with smart ovens (in vending or standalone) that *read* the package and cook it automatically—no thinking, minimal input, quality result.
@@ -107,7 +111,7 @@ Contact: [your preferred contact link or email here]
         data-reactions-enabled="1"
         data-emit-metadata="1"
         data-input-position="bottom"
-        data-theme="light"
+        data-theme="preferred_color_scheme"
         data-lang="en"
         data-loading="lazy"
         crossorigin="anonymous"

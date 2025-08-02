@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Personal Virtual Embassy: AI as Your Digital Ambassador
 
 ## Overview
@@ -117,7 +121,7 @@ escalation:
         data-reactions-enabled="1"
         data-emit-metadata="1"
         data-input-position="bottom"
-        data-theme="light"
+        data-theme="preferred_color_scheme"
         data-lang="en"
         data-loading="lazy"
         crossorigin="anonymous"

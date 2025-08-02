@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Beyond the Call: An Idea for an Ambient Audio Companion
 
 In a world of scheduled video calls and instant messages demanding our immediate attention, staying connected with the people we care about can sometimes feel more like a task than a joy. The natural, effortless flow of simply *being* in the same space with someone is lost. We stare at unflattering camera angles, we feel the pressure to perform, and we lose the gentle, low-pressure presence that defines our closest relationships.
@@ -57,7 +61,7 @@ Ultimately, this is an exploration of how we can use technology not to schedule 
         data-reactions-enabled="1"
         data-emit-metadata="1"
         data-input-position="bottom"
-        data-theme="light"
+        data-theme="preferred_color_scheme"
         data-lang="en"
         data-loading="lazy"
         crossorigin="anonymous"

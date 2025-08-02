@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # EchoBoard: A Concept for a Smarter, More Human Keyboard
 
 We've all been there. Staring at a tiny screen, trying to compose the perfect reply. We type, delete, re-read, and re-phrase. Our mobile keyboards are functional tools for transcription, but what if they could be more? What if they could be our partners in communication?
@@ -69,7 +73,7 @@ The future of human-computer interaction lies in creating tools that adapt to us
         data-reactions-enabled="1"
         data-emit-metadata="1"
         data-input-position="bottom"
-        data-theme="light"
+        data-theme="preferred_color_scheme"
         data-lang="en"
         data-loading="lazy"
         crossorigin="anonymous"

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Contact
 
 This page provides contact information.
@@ -16,7 +20,7 @@ You can reach me by opening an issue on this repository or sending an email to e
         data-reactions-enabled="1"
         data-emit-metadata="1"
         data-input-position="bottom"
-        data-theme="light"
+        data-theme="preferred_color_scheme"
         data-lang="en"
         data-loading="lazy"
         crossorigin="anonymous"
