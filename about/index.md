@@ -1,8 +1,10 @@
 # About
 
-This page tells you a little bit about this simple site.
+This site is my personal corner of the web where I collect and share ideas.
 
-We built this site to demonstrate how to organize a static site using Markdown files and directories on GitHub.
+Instead of placeholder examples or old templates, you'll find notes on concepts I'm exploring and other thoughts in progress.
+
+Feel free to look around and see what I'm working on.
 
 ---
 

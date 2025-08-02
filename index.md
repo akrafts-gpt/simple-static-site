@@ -2,7 +2,6 @@
 
 This is the home page of my simple static website. Navigate through the pages to learn more.
 
-- [About](/about/index.md) – Explains this site as a demo of organizing static content with Markdown files and directories on GitHub.
 - [Contact](/contact/index.md) – Offers ways to reach the author via GitHub issues or email for questions and collaboration.
 - [Personal Virtual Embassy](/personal_virtual_embassy/index.md) – Proposes an AI ambassador that retains context, adapts tone, and negotiates small tasks within user-defined boundaries.
 - [Gourmet vending](/gourmet/index.md) – Suggests standardized smart meal pods with encoded cook profiles and ovens that automatically prepare quality frozen meals.
@@ -11,6 +10,7 @@ This is the home page of my simple static website. Navigate through the pages to
 - [Echo Board](/echo/index.md) – Envisions a mobile keyboard that toggles between classic typing and an AI voice mode with gesture-driven controls.
 - [Ambient Audio](/ambient/index.md) – Describes a tactile device with tuning and presence wheels for low-pressure, always-on voice connections with loved ones.
 - [Tribe To Fly](/tribe-to-fly/index.md) – Explores forming temporary travel crews who match by vibe, pool funds, and book shared stays for richer adventures.
+- [About](/about/index.md)
 
 ---
 
