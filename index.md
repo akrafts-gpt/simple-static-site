@@ -10,6 +10,8 @@ This is the home page of my simple static website. Navigate through the pages to
 - [Fly in cloud](/fly/index.md)
 - [Echo Board](/echo/index.md)
 - [Ambient Audio](/ambient/index.md)
+- [Tribe To Fly](/tribe-to-fly/index.md)
+
 ---
 
 <script src="https://giscus.app/client.js"
