@@ -10,6 +10,7 @@ This is the home page of my simple static website. Navigate through the pages to
 - [Echo Board](/echo/index.md) – Envisions a mobile keyboard that toggles between classic typing and an AI voice mode with gesture-driven controls.
 - [Ambient Audio](/ambient/index.md) – Describes a tactile device with tuning and presence wheels for low-pressure, always-on voice connections with loved ones.
 - [Tribe To Fly](/tribe-to-fly/index.md) – Explores forming temporary travel crews who match by vibe, pool funds, and book shared stays for richer adventures.
+- [Maps Websites](/maps/index.md)
 - [About](/about/index.md)
 
 ---
