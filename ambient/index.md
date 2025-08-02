@@ -44,3 +44,23 @@ This concept is built on a few core beliefs about how technology should connect 
 * **Trust and Intimacy:** As a dedicated, closed system for a pre-defined circle, it creates a trusted space for connection, free from the noise of wider social networks.
 
 Ultimately, this is an exploration of how we can use technology not to schedule our relationships, but to let them breathe. It's a move toward a calmer, more present, and more human way of staying in touch.
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="akrafts-gpt/simple-static-site"
+        data-repo-id="R_kgDOPWwKHQ"
+        data-category="Ideas"
+        data-category-id="DIC_kwDOPWwKHc4CtsPi"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
