@@ -104,3 +104,23 @@ This is how cities can grow not just outward, or upward, but **together** — a 
 ---
 
 *If you're interested in a downloadable concept brief, illustrations, or a policy template to propose this to planners or developers, I can help draft those next.*
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="akrafts-gpt/simple-static-site"
+        data-repo-id="R_kgDOPWwKHQ"
+        data-category="Ideas"
+        data-category-id="DIC_kwDOPWwKHc4CtsPi"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+

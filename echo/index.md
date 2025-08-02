@@ -56,3 +56,23 @@ EchoBoard is more than just a keyboard; it's a design philosophy.
 * **It’s a true thought partner.** By allowing for iterative, conversational refinement, EchoBoard helps you explore ideas and find the right words, turning the chore of writing into a creative process.
 
 The future of human-computer interaction lies in creating tools that adapt to us. EchoBoard is a step in that direction—a keyboard that doesn't just listen, but understands.
+
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="akrafts-gpt/simple-static-site"
+        data-repo-id="R_kgDOPWwKHQ"
+        data-category="Ideas"
+        data-category-id="DIC_kwDOPWwKHc4CtsPi"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="bottom"
+        data-theme="light"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
