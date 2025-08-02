@@ -1,8 +1,4 @@
 ---
-layout: default
----
-
----
 title: Travel Together: A Community-First Way to Share Short-Term Stays
 subtitle: Building temporary travel crews for richer, social adventures
 ---
@@ -121,7 +117,7 @@ Drop your thoughts in the comments, DM me, or email me—this concept lives or d
         data-reactions-enabled="1"
         data-emit-metadata="1"
         data-input-position="bottom"
-        data-theme="preferred_color_scheme"
+        data-theme="light"
         data-lang="en"
         data-loading="lazy"
         crossorigin="anonymous"
