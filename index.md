@@ -35,3 +35,11 @@ This is the home page of my simple static website. Navigate through the pages to
 <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0bp_FZKlRq5El7y6_DJ9TG7PGFovWcz4QaeUrxmS_9KIzYjbj26_JKyki0oUtNWqUqqRpJ-UpD?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
 <!-- end Google Calendar Appointment Scheduling -->
 
+<!-- Alex Krafts Instagram profile – shows latest posts in a grid -->
+<blockquote class="instagram-media"
+          data-instgrm-permalink="https://www.instagram.com/alex_krafts/"
+          data-instgrm-version="14"></blockquote>
+
+<script async src="//www.instagram.com/embed.js"></script>
+
+
