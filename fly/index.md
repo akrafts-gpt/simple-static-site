@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Flying in the Cloud: Reimagining Aircraft Seating as Inflatable, Body-Conforming Pods
 
 Most cabins today are organized around fixed categories—economy, premium, business—each defined by static seats bolted to the floor. What if instead of immutable benches, the cabin became a **transformable environment** that adapts to people, moods, and phases of a flight? What if passengers didn’t sit “on” the plane so much as **float inside a soft, adaptive cradle** tailored to their body and desired experience?
@@ -90,7 +94,7 @@ This isn’t a seat upgrade; it’s a **paradigm shift in what it means to occup
         data-reactions-enabled="1"
         data-emit-metadata="1"
         data-input-position="bottom"
-        data-theme="light"
+        data-theme="preferred_color_scheme"
         data-lang="en"
         data-loading="lazy"
         crossorigin="anonymous"

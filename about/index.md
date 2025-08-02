@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # About
 
 This site is my personal corner of the web where I collect and share ideas.
@@ -18,7 +22,7 @@ Feel free to look around and see what I'm working on.
         data-reactions-enabled="1"
         data-emit-metadata="1"
         data-input-position="bottom"
-        data-theme="light"
+        data-theme="preferred_color_scheme"
         data-lang="en"
         data-loading="lazy"
         crossorigin="anonymous"

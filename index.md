@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Welcome to My Simple Site
 
 This is the home page of my simple static website. Navigate through the pages to learn more.
@@ -24,7 +28,7 @@ This is the home page of my simple static website. Navigate through the pages to
         data-reactions-enabled="1"
         data-emit-metadata="1"
         data-input-position="bottom"
-        data-theme="light"
+        data-theme="preferred_color_scheme"
         data-lang="en"
         data-loading="lazy"
         crossorigin="anonymous"
