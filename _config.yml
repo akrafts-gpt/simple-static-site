@@ -1,0 +1,8 @@
+title: "Ideas Home"
+description: >-
+  A loose collection of independent concepts across mobility, food tech,
+  ambient communication, and more.
+baseurl: ""
+# Set the theme so the site title appears as a return link on each page
+# (GitHub Pages will use this theme by default)
+theme: jekyll-theme-minimal
