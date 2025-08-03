@@ -18,90 +18,70 @@
 ---
 
 ## 1. Context & Core Concept
-**Mission:** help small, place-based businesses look great to the customers who already find them on Google Maps.  
-**Key idea:** most neighbourhood venues do **not** need a heavy website or a custom app—just a lightning-fast, mobile-ready landing page that fills the gaps Maps and social media leave open.
+**Mission:** help small, place-based businesses shine where customers already see them—on Google Maps.  
+**Key idea:** most neighbourhood venues don’t need a heavyweight site or app; a **fast microsite** (see <https://example.com/ai/>) plus a curated Maps layer does the job.
 
 ---
 
 ## 2. Problems Identified
 ### 2.1. Poor Web Presence
-* Many owners still rely on decade-old DIY pages or single-page PDFs.  
-* Lack of time, skill, and budget keeps those sites frozen in time.
+Many owners rely on decade-old DIY pages or a lonely PDF menu. The full autopsy is in **[Where Bad Sites Come From](when/)**.
 
 ### 2.2. Google Maps “Wild West”
-* Anyone can post photos or reviews; signal is mixed with a lot of noise.  
-* Out-of-date menus and legacy 1-star reviews scare new guests away.
+Random visitor photos and legacy reviews make listings messy. How we tame that chaos is covered in **[Taming the Google Maps Wild West](wild/)**.
 
 ### 2.3. Platform Gaps for Conversion
-* Maps offers directions and a phone number—nothing more.  
-* No built-in booking, no off-peak discounts, no loyalty hooks.
+Maps gives directions but no booking, no loyalty, no discounts—gaps we close with the deal engine explained in **[Time-Slot Deals for Any Business](time/)**.
 
 ---
 
 ## 3. Market Research — Where Today’s Bad Sites Come From
-* **DIY builders** (Wix, Jimdo) → easy start, but heavy code and poor SEO.  
-* **Marketplace freelancers** → low-cost themes, no maintenance contract.  
-* **Local “friend who codes”** → enthusiasm fades; site rots.  
-* **Small agencies** → decent design but pricey and often locked to their hosting.  
-* **No site at all** → a Google Doc or PDF menu; zero analytics, awkward on phones.
+DIY builders, vanishing freelancers, agency lock-ins, and the ever-popular “just upload a PDF.” If you recognise yourself, read **[Where Bad Sites Come From](when/)** for exit strategies.
 
 ---
 
 ## 4. Proposed Solution Suite
 ### 4.1. Google-Maps-First Websites
-A single, responsive page that loads in <1 s, carries structured menu data, and can be “added to Home Screen” like an app.
+Lightning-fast one-pagers that load in <1 s and work as installable PWAs. Full build flow in **[AI-Generated Instant Sites](ai/)**.
 
 ### 4.2. Owner-Curated Overlay for Maps
-A light overlay that pins the best photos and reviews, hides junk, and shows live banners—without touching Google’s DOM.
+Pin best photos, highlight chosen reviews, and run live banners—details in **[Curating Google Maps Listings](curate/)**.
 
 ### 4.3. AI-Generated “Instant Sites”
-1. Import public Maps data.  
-2. Clean with AI (drop blurry pics, rewrite reviews).  
-3. Auto-layout into a branded template.  
-4. Owner tweaks, then publishes with one click.
+Import Maps data → clean with AI → publish. A 10-minute walkthrough lives in **[AI-Generated Instant Sites](ai/)**.
 
 ---
 
 ## 5. Cross-Business Promotion & Dynamic Offers
-* **Off-peak discounts** (inspired by The Fork) fill empty chairs on slow days.  
-* **Surplus flash sales** (Too Good To Go style) clear perishables or stale stock.  
-* **Neighbour bundles** let two or three nearby venues sell a combo experience.
+Off-peak discounts, surplus flash sales, and neighbour bundles all ride on our deal engine (see **[Time-Slot Deals for Any Business](time/)**) and feed the discovery loop described in **[The Microsite Flywheel](fly/)**.
 
 ---
 
 ## 6. Business Model & Pricing
-* **Free** – core microsite, HTTPS, booking button, small footer badge.  
-* **Starter** – remove badge, add custom domain + basic analytics.  
-* **Growth** – loyalty QR, advanced analytics, unlimited deals.  
-* **Pro** – API, headless export, multi-location dashboard.  
-All tiers are ad-free; upgrade prompts appear only when usage caps are truly hit.
+Transparent freemium: a generous free tier, then upgrade only when traffic or bookings justify it. Philosophy and numbers in **[A Freemium Model Owners Trust](price/)**.
 
 ---
 
 ## 7. Benefits by Stakeholder
-* **Owners:** zero-code site, curated Maps presence, higher conversion.  
-* **Customers:** accurate info, instant reservations, relevant offers.  
-* **Platform:** sustainable freemium revenue and richer local discovery data.
+* **Owners:** zero-code site, curated listing, more bookings.  
+* **Customers:** up-to-date info, easy reservations, relevant deals.  
+* **Platform:** fair, ad-free revenue that scales with owner success.
 
 ---
 
 ## 8. Future Enhancements
-* Integrated payments & deposits  
-* Real-time analytics dashboard  
-* Social-media auto-sync  
-* AI review-spam filter  
-* AR way-finding and multi-location API (see Roadmap sub-article)
+Integrated payments, real-time analytics, social-media auto-sync, AI review spam filter, and AR way-finding—all tracked publicly in **[Roadmap & Next Steps](next/)**.
 
 ---
 
 ## 9. Sub-Articles in This Series
-- [Do You Really Need a Website?](why/)
-- [Taming the Google Maps Wild West](wild/)
-- [Where Bad Sites Come From](when/)
-- [PDF Menus → Microsites](pdf/)
-- [Time-Slot Deals for Any Business](time/)
-- [AI-Generated Instant Sites](ai/)
-- [Curating Google Maps Listings](curate/)
-- [The Microsite Flywheel](fly/)
-- [A Freemium Model Owners Trust](price/)
+- [Do You Really Need a Website?](why/)  
+- [Taming the Google Maps Wild West](wild/)  
+- [Where Bad Sites Come From](when/)  
+- [PDF Menus → Microsites](pdf/)  
+- [Time-Slot Deals for Any Business](time/)  
+- [AI-Generated Instant Sites](ai/)  
+- [Curating Google Maps Listings](curate/)  
+- [The Microsite Flywheel](fly/)  
+- [A Freemium Model Owners Trust](price/)  
 - [Roadmap & Next Steps](next/)
