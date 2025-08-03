@@ -1,16 +1,17 @@
 # Roadmap & Next Steps  
 *Where the Google-Maps-first platform is heading from 2025 to 2027—and why it matters to owners, partners, and users.*
 
-> **Part of the series:**  
-> • [Do You Really Need a Website?](#do-you-really-need-a-website)  
-> • [Taming the Google Maps Wild West](#taming-the-google-maps-wild-west)  
-> • [Where Bad Sites Come From](#where-bad-sites-come-from)  
-> • [PDF Menus → Microsites](#pdf-menus-→-microsites)  
-> • [Time-Slot Deals for Any Business](#time-slot-deals-for-any-business)  
-> • [AI-Generated Instant Sites](#ai-generated-instant-sites)  
-> • [Curating Google Maps Listings](#curating-google-maps-listings)  
-> • [The Microsite Flywheel](#the-microsite-flywheel)  
-> • [A Freemium Model Owners Trust](#a-freemium-model-owners-trust)  
+> **Part of the series:**
+> • [Overview](../)
+> • [Do You Really Need a Website?](../why/)
+> • [Taming the Google Maps Wild West](../wild/)
+> • [Where Bad Sites Come From](../when/)
+> • [PDF Menus → Microsites](../pdf/)  
+> • [Time-Slot Deals for Any Business](../time/)  
+> • [AI-Generated Instant Sites](../ai/)  
+> • [Curating Google Maps Listings](../curate/)  
+> • [The Microsite Flywheel](../fly/)  
+> • [A Freemium Model Owners Trust](../price/)  
 > • **Roadmap & Next Steps** (you are here)
 
 ---

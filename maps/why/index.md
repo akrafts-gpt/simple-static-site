@@ -1,7 +1,18 @@
-# Do You Really Need a Website?  
+# Do You Really Need a Website?
 *A reality-check for cafés, barbers, bakeries & every other “Google-Maps-first” business.*
 
-> **Part of the series:** [Context & Core Concept](#context--core-concept) • [Taming the Google Maps Wild West](#taming-the-google-maps-wild-west) • [PDF Menus → Microsites](#pdf-menus-→-microsites) • [AI-Generated Instant Sites](#ai-generated-instant-sites)
+> **Part of the series:**
+> • [Overview](../)
+> • **Do You Really Need a Website?** (you are here)
+> • [Taming the Google Maps Wild West](../wild/)
+> • [Where Bad Sites Come From](../when/)
+> • [PDF Menus → Microsites](../pdf/)
+> • [Time-Slot Deals for Any Business](../time/)
+> • [AI-Generated Instant Sites](../ai/)
+> • [Curating Google Maps Listings](../curate/)
+> • [The Microsite Flywheel](../fly/)
+> • [A Freemium Model Owners Trust](../price/)
+> • [Roadmap & Next Steps](../next/)
 
 ---
 
@@ -28,7 +39,7 @@ Reality:
 | Time-slot booking | ❌ (unless 3rd-party integrated) | No-shows & lost revenue |
 | The owner’s “story” | ❌ Buried in crowdsourced reviews | Brand dilution |
 
-For a deep dive into that chaos, read **[Taming the Google Maps Wild West](#taming-the-google-maps-wild-west)**.
+For a deep dive into that chaos, read **[Taming the Google Maps Wild West](../wild/)**.
 
 ---
 
@@ -37,7 +48,7 @@ For a deep dive into that chaos, read **[Taming the Google Maps Wild West](#tami
 ### 3.1. PDF & Google-Doc Menus  
 - **Pros:** fast, printable, free.  
 - **Cons:** non-indexed by search, zero analytics, awkward on phones.  
-- See how restaurants evolved in **[PDF Menus → Microsites](#pdf-menus-→-microsites)**.
+- See how restaurants evolved in **[PDF Menus → Microsites](../pdf/)**.
 
 ### 3.2. DIY Builders (Wix, Jimdo)  
 - **Pros:** cheap starter templates.  
@@ -70,14 +81,14 @@ A one-page site that:
 3. Can be **added to the home screen** like an app.  
 4. Costs almost nothing to maintain.
 
-See how we auto-generate one in **[AI-Generated Instant Sites](#ai-generated-instant-sites)**.
+See how we auto-generate one in **[AI-Generated Instant Sites](../ai/)**.
 
 ---
 
 ## 6. Decision Checklist
 
 - [ ] Has my Maps listing converted < 2 % of profile views into visits last month?  
-- [ ] Do I rely on time-slot utilization (e.g., off-peak barber seats)? => Pair with **[Time-Slot Deals for Any Business](#time-slot-deals-for-any-business)**.  
+- [ ] Do I rely on time-slot utilization (e.g., off-peak barber seats)? => Pair with **[Time-Slot Deals for Any Business](../time/)**.  
 - [ ] Is my “website” currently a PDF?  
 - [ ] Am I paying $$ for a site I never update?  
 
@@ -87,9 +98,9 @@ If you tick one or more boxes, **start with a microsite** and grow only when the
 
 ## 7. Next Reads in the Series
 
-1. **[Taming the Google Maps Wild West](#taming-the-google-maps-wild-west)** – Clean up crowdsourced chaos.  
-2. **[AI-Generated Instant Sites](#ai-generated-instant-sites)** – See the no-code build flow.  
-3. **[A Freemium Model Owners Trust](#a-freemium-model-owners-trust)** – How we keep the base tier free & ad-free.
+1. **[Taming the Google Maps Wild West](../wild/)** – Clean up crowdsourced chaos.  
+2. **[AI-Generated Instant Sites](../ai/)** – See the no-code build flow.  
+3. **[A Freemium Model Owners Trust](../price/)** – How we keep the base tier free & ad-free.
 
 ---
 

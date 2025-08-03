@@ -1,7 +1,18 @@
-# Taming the Google Maps Wild West  
+# Taming the Google Maps Wild West
 *How to wrest control of your listing—and turn chaos into conversions.*
 
-> **Part of the series:** [Do You Really Need a Website?](#do-you-really-need-a-website) • [Where Bad Sites Come From](#where-bad-sites-come-from) • [PDF Menus → Microsites](#pdf-menus-→-microsites) • [AI-Generated Instant Sites](#ai-generated-instant-sites)
+> **Part of the series:**
+> • [Overview](../)
+> • [Do You Really Need a Website?](../why/)
+> • **Taming the Google Maps Wild West** (you are here)
+> • [Where Bad Sites Come From](../when/)
+> • [PDF Menus → Microsites](../pdf/)
+> • [Time-Slot Deals for Any Business](../time/)
+> • [AI-Generated Instant Sites](../ai/)
+> • [Curating Google Maps Listings](../curate/)
+> • [The Microsite Flywheel](../fly/)
+> • [A Freemium Model Owners Trust](../price/)
+> • [Roadmap & Next Steps](../next/)
 
 ---
 
@@ -10,7 +21,7 @@
 - **Crowdsourced downside:** Anyone can add photos, reviews, or edits—useful, but often messy.  
 - **Business impact:** Out-of-date or irrelevant content lowers trust and click-through rates by up to **25 %** compared with a clean listing (internal benchmark, 2025Q1).  
 
-For a broader look at the “do I even need a site?” debate, see **[Do You Really Need a Website?](#do-you-really-need-a-website)**.
+For a broader look at the “do I even need a site?” debate, see **[Do You Really Need a Website?](../why/)**.
 
 ---
 
@@ -33,7 +44,7 @@ Google calls this “community-driven accuracy,” but in practice it’s the **
 | 3 | **Legacy reviews** | 1-star complaints about *previous* owners | Unfair rating average |
 | 4 | **Duplicate/defunct pins** | Old address never deleted | Navigation errors |
 
-Get a historical view of restaurant web pain in **[PDF Menus → Microsites](#pdf-menus-→-microsites)**.
+Get a historical view of restaurant web pain in **[PDF Menus → Microsites](../pdf/)**.
 
 ---
 
@@ -42,7 +53,7 @@ Get a historical view of restaurant web pain in **[PDF Menus → Microsites](#pd
 - **Visit intent:** When top review is > 5 years old, intent to visit falls **12 %** (survey, n = 438).  
 - **Bounce-back risk:** Users who click *away* after bad info rarely return—an invisible churn.
 
-Curious why owners still accept broken sites? Read **[Where Bad Sites Come From](#where-bad-sites-come-from)**.
+Curious why owners still accept broken sites? Read **[Where Bad Sites Come From](../when/)**.
 
 ---
 
@@ -64,10 +75,10 @@ Our platform adds a **light overlay** on top of Maps data:
 
 * **Pinned gallery**—choose 5 “hero” images that always appear first.  
 * **Featured reviews**—highlight recent, relevant stories.  
-* **Dynamic info bar**—live specials, time-slot discounts (ties into **[Time-Slot Deals for Any Business](#time-slot-deals-for-any-business)**).  
+* **Dynamic info bar**—live specials, time-slot discounts (ties into **[Time-Slot Deals for Any Business](../time/)**).  
 * **Cleanup AI**—auto-flags off-topic or low-quality photos.
 
-For the tech deep dive, see **[Curating Google Maps Listings](#curating-google-maps-listings)**.
+For the tech deep dive, see **[Curating Google Maps Listings](../curate/)**.
 
 ---
 
@@ -78,14 +89,14 @@ For the tech deep dive, see **[Curating Google Maps Listings](#curating-google-m
 4. **Answer Q&A**: Pin an owner response to top 3 recurring questions.  
 5. **Add menu link**: Even a PDF is better than nothing—until you upgrade to a microsite.
 
-When you’re ready to leap past PDFs, explore **[AI-Generated Instant Sites](#ai-generated-instant-sites)**.
+When you’re ready to leap past PDFs, explore **[AI-Generated Instant Sites](../ai/)**.
 
 ---
 
 ## 8. Turning Chaos into Marketing Fuel
 - **User photo contests**: Encourage patrons to post specific shots (e.g., “Latte Art of the Month”).  
 - **Review harvesting**: Pull top quotes into your microsite carousel—drives social proof.  
-- **Before/After stories**: Show transformation after your clean-up, and share in the **[Microsite Flywheel](#the-microsite-flywheel)** marketplace.
+- **Before/After stories**: Show transformation after your clean-up, and share in the **[Microsite Flywheel](../fly/)** marketplace.
 
 ---
 
@@ -98,14 +109,14 @@ When you’re ready to leap past PDFs, explore **[AI-Generated Instant Sites](#a
 | Update specials & time slots | Daily (auto) | Platform rules | Dynamic info bar |
 | Deep content audit | Quarterly | Owner | Checklist doc |
 
-Tip: build these into a recurring reminder—see **[A Freemium Model Owners Trust](#a-freemium-model-owners-trust)** for why the *Free* tier still includes basic reminders.
+Tip: build these into a recurring reminder—see **[A Freemium Model Owners Trust](../price/)** for why the *Free* tier still includes basic reminders.
 
 ---
 
 ## 10. What’s Next?
-1. **[AI-Generated Instant Sites](#ai-generated-instant-sites)** – Turn your cleaned listing into a full mobile microsite.  
-2. **[Do You Really Need a Website?](#do-you-really-need-a-website)** – Decide if a microsite is enough.  
-3. **[Roadmap & Next Steps](#roadmap--next-steps)** – Peek at payments, analytics, and multi-location APIs.
+1. **[AI-Generated Instant Sites](../ai/)** – Turn your cleaned listing into a full mobile microsite.  
+2. **[Do You Really Need a Website?](../why/)** – Decide if a microsite is enough.  
+3. **[Roadmap & Next Steps](../next/)** – Peek at payments, analytics, and multi-location APIs.
 
 ---
 

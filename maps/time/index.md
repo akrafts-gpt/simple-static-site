@@ -1,17 +1,18 @@
 # Time-Slot Deals for Any Business  
 *How off-peak discounts can fill empty chairs, exam rooms, and shelves—well beyond food service.*
 
-> **Part of the series:**  
-> • [Do You Really Need a Website?](#do-you-really-need-a-website)  
-> • [Taming the Google Maps Wild West](#taming-the-google-maps-wild-west)  
-> • [Where Bad Sites Come From](#where-bad-sites-come-from)  
-> • [PDF Menus → Microsites](#pdf-menus-→-microsites)  
+> **Part of the series:**
+> • [Overview](../)
+> • [Do You Really Need a Website?](../why/)
+> • [Taming the Google Maps Wild West](../wild/)
+> • [Where Bad Sites Come From](../when/)
+> • [PDF Menus → Microsites](../pdf/)  
 > • **Time-Slot Deals for Any Business** (you are here)  
-> • [AI-Generated Instant Sites](#ai-generated-instant-sites)  
-> • [Curating Google Maps Listings](#curating-google-maps-listings)  
-> • [The Microsite Flywheel](#the-microsite-flywheel)  
-> • [A Freemium Model Owners Trust](#a-freemium-model-owners-trust)  
-> • [Roadmap & Next Steps](#roadmap--next-steps)
+> • [AI-Generated Instant Sites](../ai/)  
+> • [Curating Google Maps Listings](../curate/)  
+> • [The Microsite Flywheel](../fly/)  
+> • [A Freemium Model Owners Trust](../price/)  
+> • [Roadmap & Next Steps](../next/)
 
 ---
 
@@ -25,14 +26,14 @@ Restaurants use **The Fork** to sell tables at –30 % on quiet Tuesdays. Cafés
 | **Yoga Studios** | 6 pm after-work vs. mid-afternoon | Half-empty classes |
 | **Retail Boutiques** | Weekends vs. Mon/Tue | Stale seasonal stock |
 
-If you’re still wondering *whether you even need a web layer* to run these offers, hop to **[Do You Really Need a Website?](#do-you-really-need-a-website)** first.
+If you’re still wondering *whether you even need a web layer* to run these offers, hop to **[Do You Really Need a Website?](../why/)** first.
 
 ---
 
 ## 2 | Core Mechanics of a Time-Slot Deal Engine
 1. **Inventory Model** — Define a quantifiable slot (chair-hour, class seat, SKU batch).  
 2. **Dynamic Pricing** — X % off when predicted fill rate < target.  
-3. **Real-Time Publishing** — Push to Maps overlay + microsite banner (see **[Curating Google Maps Listings](#curating-google-maps-listings)**).  
+3. **Real-Time Publishing** — Push to Maps overlay + microsite banner (see **[Curating Google Maps Listings](../curate/)**).  
 4. **Auto-Expiry** — Deal disappears once slot is booked or window closes.  
 5. **Data Loop** — Track redemption, repeat rate, margin delta.
 
@@ -46,7 +47,7 @@ If you’re still wondering *whether you even need a web layer* to run these off
 - **Slot Definition:** 30-min haircut block.  
 - **Ideal Discount:** –15 % or free add-on (beard trim).  
 - **UX Flow:** Customer picks off-peak slot → pays deposit → calendar invite.  
-- **Common Pitfall:** Staff forgetting to update walk-in board—solve with instant POS sync (road-mapped under **[Roadmap & Next Steps](#roadmap--next-steps)**).
+- **Common Pitfall:** Staff forgetting to update walk-in board—solve with instant POS sync (road-mapped under **[Roadmap & Next Steps](../next/)**).
 
 ### 3.2 Dental & Medical
 - **Compliance Watch:** Must display pre-discount fee transparently.  
@@ -59,7 +60,7 @@ If you’re still wondering *whether you even need a web layer* to run these off
 
 ### 3.4 Gyms & Studios
 - **Class Fill Rate:** Auto-drop single-class price 2 h before if <60 % booked.  
-- **Upsell Path:** Convert trial to monthly membership (looped into **[The Microsite Flywheel](#the-microsite-flywheel)**).
+- **Upsell Path:** Convert trial to monthly membership (looped into **[The Microsite Flywheel](../fly/)**).
 
 ---
 
@@ -70,7 +71,7 @@ If you’re still wondering *whether you even need a web layer* to run these off
 | **Pricing Engine** | Rule-based (phase 1) → ML demand curve (phase 2) | A/B test discount depths |
 | **Surface** | Maps overlay banner + microsite sticky CTA | <1 s cache invalidation |
 | **Booking / Cart** | Stripe Checkout or in-house payment sheet | Deposit option |
-| **Notifications** | Email + push via PWA (“Add to Home Screen” from **[PDF Menus → Microsites](#pdf-menus-→-microsites)**) | 1-click Apple Wallet pass |
+| **Notifications** | Email + push via PWA (“Add to Home Screen” from **[PDF Menus → Microsites](../pdf/)**) | 1-click Apple Wallet pass |
 
 ---
 
@@ -92,9 +93,9 @@ The lifetime value of those new customers then compounds—captured in your **Mi
 
 1. **Map Empty Slots** — Export POS/booking data; label <60 % fill windows.  
 2. **Choose Incentive** — %-off, add-on, or loyalty-points boost.  
-3. **Build Offer Templates** — Via dashboard (Free tier allows 3; limits explained in **[A Freemium Model Owners Trust](#a-freemium-model-owners-trust)**).  
-4. **Generate Microsite Section** — Use **[AI-Generated Instant Sites](#ai-generated-instant-sites)** wizard; auto-sync slots.  
-5. **Activate Overlay Banner** — Push to Google Maps listing (see **[Curating Google Maps Listings](#curating-google-maps-listings)**).  
+3. **Build Offer Templates** — Via dashboard (Free tier allows 3; limits explained in **[A Freemium Model Owners Trust](../price/)**).  
+4. **Generate Microsite Section** — Use **[AI-Generated Instant Sites](../ai/)** wizard; auto-sync slots.  
+5. **Activate Overlay Banner** — Push to Google Maps listing (see **[Curating Google Maps Listings](../curate/)**).  
 6. **Pilot 1 Week** — Track impressions → bookings → no-shows.  
 7. **Iterate** — Adjust discount depth; enable auto-pricing rules.  
 
@@ -114,9 +115,9 @@ F --> G(Auto-prompt for review)
 
 | Business | Pre-Pilot Pain | 30-Day Outcome | Related Deep-Dive |
 |----------|---------------|----------------|-------------------|
-| **ClipJoint Barbers** | Tuesday/Wednesday lull | +48 weekday bookings | *See* “[Where Bad Sites Come From](#where-bad-sites-come-from)” §5.1 |
-| **SmileBright Dental** | Empty hygiene slots 8-10 am | Chair utilisation **62 % → 91 %** | *See* “[Taming the Google Maps Wild West](#taming-the-google-maps-wild-west)” (photo clean-up boosted reach) |
-| **Luna Boutique** | Post-season dead stock | Cleared 70 % via flash slots | *See* “[The Microsite Flywheel](#the-microsite-flywheel)” (cross-promo with neighbouring café) |
+| **ClipJoint Barbers** | Tuesday/Wednesday lull | +48 weekday bookings | *See* “[Where Bad Sites Come From](../when/)” §5.1 |
+| **SmileBright Dental** | Empty hygiene slots 8-10 am | Chair utilisation **62 % → 91 %** | *See* “[Taming the Google Maps Wild West](../wild/)” (photo clean-up boosted reach) |
+| **Luna Boutique** | Post-season dead stock | Cleared 70 % via flash slots | *See* “[The Microsite Flywheel](../fly/)” (cross-promo with neighbouring café) |
 
 ---
 
@@ -143,7 +144,7 @@ F --> G(Auto-prompt for review)
 
 1. **Dynamic Bundles** – Pair a slow-hour massage with a neighbouring café’s pastry voucher.  
 2. **Surge *Premium* Pricing** – Flip the model: raise prices for peak-demand slots.  
-3. **AI Demand Forecasting** – Pull weather/event data to pre-set discounts (slated in “[Roadmap & Next Steps](#roadmap--next-steps)”).  
+3. **AI Demand Forecasting** – Pull weather/event data to pre-set discounts (slated in “[Roadmap & Next Steps](../next/)”).  
 
 ---
 
@@ -158,9 +159,9 @@ F --> G(Auto-prompt for review)
 
 ## 13 | Next Reads
 
-* **[AI-Generated Instant Sites](#ai-generated-instant-sites)** – Fastest way to host your deal engine.  
-* **[Curating Google Maps Listings](#curating-google-maps-listings)** – Make your banner pop amid clean photos.  
-* **[A Freemium Model Owners Trust](#a-freemium-model-owners-trust)** – Understand slot limits and upgrade paths.
+* **[AI-Generated Instant Sites](../ai/)** – Fastest way to host your deal engine.  
+* **[Curating Google Maps Listings](../curate/)** – Make your banner pop amid clean photos.  
+* **[A Freemium Model Owners Trust](../price/)** – Understand slot limits and upgrade paths.
 
 ---
 

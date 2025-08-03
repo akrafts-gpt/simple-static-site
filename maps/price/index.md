@@ -1,17 +1,18 @@
 # A Freemium Model Owners Trust  
 *Pricing, ethics, and upgrade cues for Google-Maps-first microsites.*
 
-> **Part of the series:**  
-> • [Do You Really Need a Website?](#do-you-really-need-a-website)  
-> • [Taming the Google Maps Wild West](#taming-the-google-maps-wild-west)  
-> • [Where Bad Sites Come From](#where-bad-sites-come-from)  
-> • [PDF Menus → Microsites](#pdf-menus-→-microsites)  
-> • [Time-Slot Deals for Any Business](#time-slot-deals-for-any-business)  
-> • [AI-Generated Instant Sites](#ai-generated-instant-sites)  
-> • [Curating Google Maps Listings](#curating-google-maps-listings)  
-> • [The Microsite Flywheel](#the-microsite-flywheel)  
+> **Part of the series:**
+> • [Overview](../)
+> • [Do You Really Need a Website?](../why/)
+> • [Taming the Google Maps Wild West](../wild/)
+> • [Where Bad Sites Come From](../when/)
+> • [PDF Menus → Microsites](../pdf/)  
+> • [Time-Slot Deals for Any Business](../time/)  
+> • [AI-Generated Instant Sites](../ai/)  
+> • [Curating Google Maps Listings](../curate/)  
+> • [The Microsite Flywheel](../fly/)  
 > • **A Freemium Model Owners Trust** (you are here)  
-> • [Roadmap & Next Steps](#roadmap--next-steps)
+> • [Roadmap & Next Steps](../next/)
 
 ---
 

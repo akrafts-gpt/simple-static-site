@@ -1,17 +1,18 @@
 # PDF Menus → Microsites  
 *How restaurants evolved from printed lists to dynamic, mobile-first experiences.*
 
-> **Part of the series:**  
-> • [Do You Really Need a Website?](#do-you-really-need-a-website)  
-> • [Taming the Google Maps Wild West](#taming-the-google-maps-wild-west)  
-> • [Where Bad Sites Come From](#where-bad-sites-come-from)  
+> **Part of the series:**
+> • [Overview](../)
+> • [Do You Really Need a Website?](../why/)
+> • [Taming the Google Maps Wild West](../wild/)
+> • [Where Bad Sites Come From](../when/)
 > • **PDF Menus → Microsites** (you are here)  
-> • [Time-Slot Deals for Any Business](#time-slot-deals-for-any-business)  
-> • [AI-Generated Instant Sites](#ai-generated-instant-sites)  
-> • [Curating Google Maps Listings](#curating-google-maps-listings)  
-> • [The Microsite Flywheel](#the-microsite-flywheel)  
-> • [A Freemium Model Owners Trust](#a-freemium-model-owners-trust)  
-> • [Roadmap & Next Steps](#roadmap--next-steps)
+> • [Time-Slot Deals for Any Business](../time/)  
+> • [AI-Generated Instant Sites](../ai/)  
+> • [Curating Google Maps Listings](../curate/)  
+> • [The Microsite Flywheel](../fly/)  
+> • [A Freemium Model Owners Trust](../price/)  
+> • [Roadmap & Next Steps](../next/)
 
 ---
 
@@ -28,7 +29,7 @@
 </tbody>
 </table>
 
-For the broader “site or no site” debate, start with *[Do You Really Need a Website?](#do-you-really-need-a-website)*.
+For the broader “site or no site” debate, start with *[Do You Really Need a Website?](../why/)*.
 
 ---
 
@@ -37,7 +38,7 @@ For the broader “site or no site” debate, start with *[Do You Really Need a 
 - **Problems:** Zero accessibility, no update path, killed by iPhone (no Flash).  
 - **Lesson:** Fancy tech ages fast; content flexibility matters more.  
 
-This legacy still haunts many eateries—see *[Where Bad Sites Come From](#where-bad-sites-come-from)*.
+This legacy still haunts many eateries—see *[Where Bad Sites Come From](../when/)*.
 
 ---
 
@@ -52,7 +53,7 @@ This legacy still haunts many eateries—see *[Where Bad Sites Come From](#where
 - 3–8 MB files on 4G = **7-second loads**.  
 - No structured data → Google “Menu” panel stays empty.
 
-The PDF pattern is still rampant; we dissect its pitfalls in *[Taming the Google Maps Wild West](#taming-the-google-maps-wild-west)*.
+The PDF pattern is still rampant; we dissect its pitfalls in *[Taming the Google Maps Wild West](../wild/)*.
 
 ---
 
@@ -62,7 +63,7 @@ The PDF pattern is still rampant; we dissect its pitfalls in *[Taming the Google
 - **Cons:** 25–35 % commission, loss of branding, data silos.  
 - Many restaurants simply linked their Maps website button to *their* page on an aggregator—effectively **outsourcing the homepage**.
 
-Cross-industry discount mechanics are explored in *[Time-Slot Deals for Any Business](#time-slot-deals-for-any-business)*.
+Cross-industry discount mechanics are explored in *[Time-Slot Deals for Any Business](../time/)*.
 
 ---
 
@@ -71,7 +72,7 @@ Cross-industry discount mechanics are explored in *[Time-Slot Deals for Any Busi
 - But Maps shows **only fragments**: hours, location, crowd photos.  
 - Owners who rely on PDF links miss out on structured *Menu* panels, rich snippets, and in-list actions.
 
-How to polish that Maps listing? → *[Curating Google Maps Listings](#curating-google-maps-listings)*.
+How to polish that Maps listing? → *[Curating Google Maps Listings](../curate/)*.
 
 ---
 
@@ -90,7 +91,7 @@ A **single-page, mobile-first site** that extends the Maps listing with live dat
 | Live price edits | ✅ 1-click CMS | ❌ Re-export each time |
 | Load time (3 G) | **1–1.5 s** | 5-8 s |
 
-The easy-button way to get one is outlined in *[AI-Generated Instant Sites](#ai-generated-instant-sites)*.
+The easy-button way to get one is outlined in *[AI-Generated Instant Sites](../ai/)*.
 
 ---
 
@@ -101,13 +102,13 @@ The easy-button way to get one is outlined in *[AI-Generated Instant Sites](#ai-
    - Use semantic `<nav>`, `<section>`; embed `schema.org/Menu`.  
 2. **Site Builders (Modern)**  
    - Choose lightweight, mobile templates (<150 KB JS).  
-   - Beware “all-in-one” bloat—see *[Where Bad Sites Come From](#where-bad-sites-come-from)*.  
+   - Beware “all-in-one” bloat—see *[Where Bad Sites Come From](../when/)*.  
 3. **AI Auto-Generate** *(fastest)*  
    - Import items from PDF/Images → structured microsite in minutes.  
    - Part of our platform’s *Instant Site* flow.  
 4. **Overlay + Microsite Combo**  
    - Use overlay to clean Maps photos, microsite to host menu.  
-   - Workflow in *[Curating Google Maps Listings](#curating-google-maps-listings)*.
+   - Workflow in *[Curating Google Maps Listings](../curate/)*.
 
 ---
 
@@ -119,7 +120,7 @@ The easy-button way to get one is outlined in *[AI-Generated Instant Sites](#ai-
 | Online bookings / wk | 0 (call-only) | 34 | +34 |
 | Google “Menu” panel | Hidden | Auto-populated | — |
 
-Story continues in *[The Microsite Flywheel](#the-microsite-flywheel)*—how Casa Verde cross-promotes with nearby gelateria.
+Story continues in *[The Microsite Flywheel](../fly/)*—how Casa Verde cross-promotes with nearby gelateria.
 
 ---
 
@@ -127,7 +128,7 @@ Story continues in *[The Microsite Flywheel](#the-microsite-flywheel)*—how Cas
 
 1. **Locate the latest editable menu file** (Word, InDesign).  
 2. **Export items to CSV** (columns: title, description, price, dietary tags).  
-3. **Upload CSV to Instant-Site wizard** (*[AI-Generated Instant Sites](#ai-generated-instant-sites)*).  
+3. **Upload CSV to Instant-Site wizard** (*[AI-Generated Instant Sites](../ai/)*).  
 4. **Pick a template** (dark/light, hero image).  
 5. **Add booking widget** (optional).  
 6. **Swap Maps website URL** → new microsite.  
@@ -137,9 +138,9 @@ Story continues in *[The Microsite Flywheel](#the-microsite-flywheel)*—how Cas
 ---
 
 ## 10 | Monetization & Upkeep
-- **Free tier**: host up to 100 menu SKUs, 1 location badge—details in *[A Freemium Model Owners Trust](#a-freemium-model-owners-trust)*.  
+- **Free tier**: host up to 100 menu SKUs, 1 location badge—details in *[A Freemium Model Owners Trust](../price/)*.  
 - **Growth tier**: multi-language menus, advanced analytics, offline POS sync.  
-- **Pro tier**: headless API for kiosks, loyalty engine integration—roadmap in *[Roadmap & Next Steps](#roadmap--next-steps)*.
+- **Pro tier**: headless API for kiosks, loyalty engine integration—roadmap in *[Roadmap & Next Steps](../next/)*.
 
 ---
 
@@ -152,9 +153,9 @@ Story continues in *[The Microsite Flywheel](#the-microsite-flywheel)*—how Cas
 ---
 
 ## 12 | Next Reads
-- **[Taming the Google Maps Wild West](#taming-the-google-maps-wild-west)** – Clean your listing before linking it.  
-- **[Time-Slot Deals for Any Business](#time-slot-deals-for-any-business)** – Use off-peak discounts to drive table turns.  
-- **[The Microsite Flywheel](#the-microsite-flywheel)** – Leverage cross-business discovery once your page is live.
+- **[Taming the Google Maps Wild West](../wild/)** – Clean your listing before linking it.  
+- **[Time-Slot Deals for Any Business](../time/)** – Use off-peak discounts to drive table turns.  
+- **[The Microsite Flywheel](../fly/)** – Leverage cross-business discovery once your page is live.
 
 ---
 
