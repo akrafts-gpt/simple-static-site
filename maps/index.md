@@ -1,48 +1,54 @@
 # Google-Maps-First Presence for Local Businesses  
-*A concise gateway page that links you to each in-depth article in the series.*
+*A modern approach to help neighbourhood venues turn Google-Maps clicks into real-world customers.*
 
-Local cafés, barbers, bakeries, and boutique hotels are discovered first on **Google Maps**—not on their websites. Yet Maps alone can’t showcase current menus, take bookings, or weed out outdated photos. Our platform fills that gap with three layers:
+Most cafés, barbers, bakeries, and boutique hotels are **found first on Google Maps**, yet the platform alone cannot:
 
-1. **Instant microsites** generated from existing Maps data.  
-2. **An owner-curated overlay** that cleans up the “Wild West” of crowdsourced content.  
-3. **A deal engine** that drives off-peak traffic and cross-business bundles.
+* Show a live, readable menu or service list  
+* Take bookings or sell off-peak discounts  
+* Filter out outdated photos and legacy 1-star reviews  
 
-Dive into the sections below for a quick overview, then follow the links to the sub-articles for full details.
+Our solution adds three lightweight layers:
+
+1. **Instant microsites** built automatically from existing Maps data.  
+2. **An owner-curated overlay** that highlights the right photos and reviews directly inside the Maps listing.  
+3. **A deal engine** that fills slow hours and promotes cross-business bundles—without requiring a custom app or heavy website.
+
+Below is a quick overview; each bullet links to a dedicated article with deeper detail.
 
 ---
 
 ## 1. Context & Core Concept
-**Mission:** help neighbourhood businesses shine where customers already look—on Google Maps.  
-**Key idea:** replace clunky legacy sites with a **fast micro-site** (<https://example.com/ai/>) and a curated Maps layer.
+**Mission:** help local businesses shine right where customers already look—on Google Maps.  
+**Key idea:** trade clunky legacy sites for a fast, mobile-first microsite and a curated Maps layer.
 
 ---
 
 ## 2. Problems Identified
 ### 2.1. Poor Web Presence
-Old DIY pages, forgotten WordPress installs, or a single PDF menu. Fixes explored in **[Where Bad Sites Come From](when/)**.
+Old DIY pages, forgotten WordPress installs, or a lonely PDF menu. Fixes explored in **[Where Bad Sites Come From](when/)**.
 
 ### 2.2. Google Maps “Wild West”
 Random photos and legacy reviews dominate listings. Cleanup strategy in **[Taming the Google Maps Wild West](wild/)**.
 
 ### 2.3. Platform Gaps for Conversion
-Maps lacks booking, loyalty, and discount tools—gap filled by the engine in **[Time-Slot Deals for Any Business](time/)**.
+Maps lacks booking, loyalty, and discount tools—gap closed by the engine in **[Time-Slot Deals for Any Business](time/)**.
 
 ---
 
 ## 3. Market Research — Where Today’s Bad Sites Come From
-DIY builders, cheap freelancers, agency lock-in, or no site at all. Get the full breakdown in **[Where Bad Sites Come From](when/)**.
+DIY builders, cheap freelancers, agency lock-ins, or no site at all. Full breakdown: **[Where Bad Sites Come From](when/)**.
 
 ---
 
 ## 4. Proposed Solution Suite
 ### 4.1. Google-Maps-First Websites
-Load in under a second, installable as PWAs. Full build flow: **[AI-Generated Instant Sites](ai/)**.
+Lightning-fast one-pagers that load in under a second and can be added to the phone’s home screen. Build flow: **[AI-Generated Instant Sites](ai/)**.
 
 ### 4.2. Owner-Curated Overlay for Maps
-Pin the best photos & reviews, hide junk, show live banners. Details: **[Curating Google Maps Listings](curate/)**.
+Pin the best photos and reviews, hide junk, and run live banners. Details: **[Curating Google Maps Listings](curate/)**.
 
 ### 4.3. AI-Generated “Instant Sites”
-Import → clean → publish in 10 min. Walkthrough: **[AI-Generated Instant Sites](ai/)**.
+Import → clean → publish in ten minutes. Walkthrough: **[AI-Generated Instant Sites](ai/)**.
 
 ---
 
