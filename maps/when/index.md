@@ -1,16 +1,18 @@
 # Where Bad Sites Come From  
 *Tracing the root causes of ugly, slow, and useless local-business websites—so you can avoid them.*
 
-> **Part of the series:**  
-> • [Do You Really Need a Website?](#do-you-really-need-a-website)  
-> • [Taming the Google Maps Wild West](#taming-the-google-maps-wild-west)  
-> • [PDF Menus → Microsites](#pdf-menus-→-microsites)  
-> • [AI-Generated Instant Sites](#ai-generated-instant-sites)  
-> • [Time-Slot Deals for Any Business](#time-slot-deals-for-any-business)  
-> • [Curating Google Maps Listings](#curating-google-maps-listings)  
-> • [The Microsite Flywheel](#the-microsite-flywheel)  
-> • [A Freemium Model Owners Trust](#a-freemium-model-owners-trust)  
-> • [Roadmap & Next Steps](#roadmap--next-steps)
+> **Part of the series:**
+> • [Overview](../)
+> • [Do You Really Need a Website?](../why/)
+> • [Taming the Google Maps Wild West](../wild/)
+> • **Where Bad Sites Come From** (you are here)
+> • [PDF Menus → Microsites](../pdf/)
+> • [AI-Generated Instant Sites](../ai/)
+> • [Time-Slot Deals for Any Business](../time/)
+> • [Curating Google Maps Listings](../curate/)
+> • [The Microsite Flywheel](../fly/)
+> • [A Freemium Model Owners Trust](../price/)
+> • [Roadmap & Next Steps](../next/)
 
 ---
 
@@ -19,7 +21,7 @@
 - **Yet** those same businesses keep commissioning (or ignoring) them.  
 - **Result:** a web littered with autoplay music, PDF menus, and 1999 design vibes.
 
-If you’re asking whether you need a site at all, start with *[Do You Really Need a Website?](#do-you-really-need-a-website)*; this article assumes you’ve said “yes—something.”
+If you’re asking whether you need a site at all, start with *[Do You Really Need a Website?](../why/)*; this article assumes you’ve said “yes—something.”
 
 ---
 
@@ -32,7 +34,7 @@ If you’re asking whether you need a site at all, start with *[Do You Really Ne
 | **Local “Friend Who Codes”** | Pizza & thanks | “Mate will sort it” | Hobby code, no backups, single-point failure |
 | **Small Digital Agencies** | €2–5 k build + €50 / mo | “Professional look” | Lock-in hosting, upsell treadmill, slow change requests |
 
-For the historic angle on restaurants specifically, see *[PDF Menus → Microsites](#pdf-menus-→-microsites)*.
+For the historic angle on restaurants specifically, see *[PDF Menus → Microsites](../pdf/)*.
 
 ---
 
@@ -59,7 +61,7 @@ For the historic angle on restaurants specifically, see *[PDF Menus → Microsit
 - Proprietary CMS = leaving means rebuilding from scratch.  
 - Relies on heavy plugins (sliders, analytics) → performance drag.
 
-See how an owner-curated overlay can complement or replace these in *[Curating Google Maps Listings](#curating-google-maps-listings)*.
+See how an owner-curated overlay can complement or replace these in *[Curating Google Maps Listings](../curate/)*.
 
 ---
 
@@ -74,7 +76,7 @@ See how an owner-curated overlay can complement or replace these in *[Curating G
 | **SSL & Privacy** | HTTPS, cookies banner | “Not Secure” badge |
 | **Booking / Contact Flow** | ≤ 3 taps | Mailto: link only |
 
-Add these into your quarterly audit calendar; see *[A Freemium Model Owners Trust](#a-freemium-model-owners-trust)* for automated reminders.
+Add these into your quarterly audit calendar; see *[A Freemium Model Owners Trust](../price/)* for automated reminders.
 
 ---
 
@@ -83,13 +85,13 @@ Add these into your quarterly audit calendar; see *[A Freemium Model Owners Trus
 ### 5.1 “Beard & Brew Barbers”
 - **Source**: Friend-coder (React SPA).  
 - **Issue**: 4 MB bundle, fails on older Android.  
-- **Fix**: Swapped to microsite + *[Time-Slot Deals for Any Business](#time-slot-deals-for-any-business)* widget.  
+- **Fix**: Swapped to microsite + *[Time-Slot Deals for Any Business](../time/)* widget.  
 - **Outcome**: 28 % lift in weekday seats.
 
 ### 5.2 “La Nonna Pizzeria”
 - **Source**: Upwork WordPress theme.  
 - **Issue**: Menu as JPEG; no alt text; CLS warnings.  
-- **Fix**: AI-generated instant site (see *[AI-Generated Instant Sites](#ai-generated-instant-sites)*).  
+- **Fix**: AI-generated instant site (see *[AI-Generated Instant Sites](../ai/)*).  
 - **Outcome**: PageSpeed 92 → 99; online orders +17 %.
 
 ### 5.3 “Bloom Boutique Hotel”
@@ -109,7 +111,7 @@ Add these into your quarterly audit calendar; see *[A Freemium Model Owners Trus
 | **Can’t edit, friend vanished** | — | — | ✅ (instant site) |
 | **Agency lock-in, high fees** | — | ✅ (overlay + gradual migration) | → Evaluate |
 
-Overlay concept detailed in *[Taming the Google Maps Wild West](#taming-the-google-maps-wild-west)*.
+Overlay concept detailed in *[Taming the Google Maps Wild West](../wild/)*.
 
 ---
 
@@ -118,7 +120,7 @@ Overlay concept detailed in *[Taming the Google Maps Wild West](#taming-the-goog
 1. **Audit** with the 6-point test.  
 2. If < 3 fails → quick overlay & microsite.  
 3. If 3+ fails → generate new site with AI pipeline.  
-4. Integrate upsell hooks via *[The Microsite Flywheel](#the-microsite-flywheel)* for long-term growth.
+4. Integrate upsell hooks via *[The Microsite Flywheel](../fly/)* for long-term growth.
 
 ---
 
@@ -131,7 +133,7 @@ Overlay concept detailed in *[Taming the Google Maps Wild West](#taming-the-goog
 | **Performance Budgets** | Max 150 KB CSS + JS per page |
 | **Owner Training** | 15-min video onboarding; ongoing tooltips |
 
-Our roadmap adds live **Performance Score alerts**—see *[Roadmap & Next Steps](#roadmap--next-steps)*.
+Our roadmap adds live **Performance Score alerts**—see *[Roadmap & Next Steps](../next/)*.
 
 ---
 
@@ -144,9 +146,9 @@ Our roadmap adds live **Performance Score alerts**—see *[Roadmap & Next Steps]
 ---
 
 ## 10 | Next Reads
-- **[Taming the Google Maps Wild West](#taming-the-google-maps-wild-west)** – Fix your listing before fixing your site.  
-- **[AI-Generated Instant Sites](#ai-generated-instant-sites)** – See a new site spin up in minutes.  
-- **[A Freemium Model Owners Trust](#a-freemium-model-owners-trust)** – Understand the cost path.
+- **[Taming the Google Maps Wild West](../wild/)** – Fix your listing before fixing your site.  
+- **[AI-Generated Instant Sites](../ai/)** – See a new site spin up in minutes.  
+- **[A Freemium Model Owners Trust](../price/)** – Understand the cost path.
 
 ---
 

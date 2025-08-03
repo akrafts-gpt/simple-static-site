@@ -1,17 +1,18 @@
 # Curating Google Maps Listings  
 *How to layer owner-approved content on top of the world’s biggest POI database—without breaking UX or Google’s rules.*
 
-> **Part of the series:**  
-> • [Do You Really Need a Website?](#do-you-really-need-a-website)  
-> • [Taming the Google Maps Wild West](#taming-the-google-maps-wild-west)  
-> • [Where Bad Sites Come From](#where-bad-sites-come-from)  
-> • [PDF Menus → Microsites](#pdf-menus-→-microsites)  
-> • [Time-Slot Deals for Any Business](#time-slot-deals-for-any-business)  
-> • [AI-Generated Instant Sites](#ai-generated-instant-sites)  
+> **Part of the series:**
+> • [Overview](../)
+> • [Do You Really Need a Website?](../why/)
+> • [Taming the Google Maps Wild West](../wild/)
+> • [Where Bad Sites Come From](../when/)
+> • [PDF Menus → Microsites](../pdf/)  
+> • [Time-Slot Deals for Any Business](../time/)  
+> • [AI-Generated Instant Sites](../ai/)  
 > • **Curating Google Maps Listings** (you are here)  
-> • [The Microsite Flywheel](#the-microsite-flywheel)  
-> • [A Freemium Model Owners Trust](#a-freemium-model-owners-trust)  
-> • [Roadmap & Next Steps](#roadmap--next-steps)
+> • [The Microsite Flywheel](../fly/)  
+> • [A Freemium Model Owners Trust](../price/)  
+> • [Roadmap & Next Steps](../next/)
 
 ---
 

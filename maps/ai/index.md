@@ -1,17 +1,18 @@
 # AI-Generated Instant Sites  
 *From map pin to mobile-ready microsite in under 10 minutes—no code, no hassle.*
 
-> **Part of the series:**  
-> • [Do You Really Need a Website?](#do-you-really-need-a-website)  
-> • [Taming the Google Maps Wild West](#taming-the-google-maps-wild-west)  
-> • [Where Bad Sites Come From](#where-bad-sites-come-from)  
-> • [PDF Menus → Microsites](#pdf-menus-→-microsites)  
-> • [Time-Slot Deals for Any Business](#time-slot-deals-for-any-business)  
+> **Part of the series:**
+> • [Overview](../)
+> • [Do You Really Need a Website?](../why/)
+> • [Taming the Google Maps Wild West](../wild/)
+> • [Where Bad Sites Come From](../when/)
+> • [PDF Menus → Microsites](../pdf/)
+> • [Time-Slot Deals for Any Business](../time/)
 > • **AI-Generated Instant Sites** (you are here)  
-> • [Curating Google Maps Listings](#curating-google-maps-listings)  
-> • [The Microsite Flywheel](#the-microsite-flywheel)  
-> • [A Freemium Model Owners Trust](#a-freemium-model-owners-trust)  
-> • [Roadmap & Next Steps](#roadmap--next-steps)
+> • [Curating Google Maps Listings](../curate/)  
+> • [The Microsite Flywheel](../fly/)  
+> • [A Freemium Model Owners Trust](../price/)  
+> • [Roadmap & Next Steps](../next/)
 
 ---
 

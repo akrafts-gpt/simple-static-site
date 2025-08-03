@@ -10,9 +10,10 @@
    4.2. [Owner-Curated Overlay for Maps](#owner-curated-overlay-for-maps)  
    4.3. [AI-Generated “Instant Sites”](#ai-generated-instant-sites)  
 5. [Cross-Business Promotion & Dynamic Offers](#cross-business-promotion--dynamic-offers)  
-6. [Business Model & Pricing](#business-model--pricing)  
-7. [Benefits by Stakeholder](#benefits-by-stakeholder)  
+6. [Business Model & Pricing](#business-model--pricing)
+7. [Benefits by Stakeholder](#benefits-by-stakeholder)
 8. [Future Enhancements](#future-enhancements)
+9. [Sub-Articles in This Series](#sub-articles-in-this-series)
 
 ---
 
@@ -203,8 +204,23 @@
 ## 8. Future Enhancements
 - **Integrated payments/deposits**  
 - **Analytics dashboard** (traffic, conversions, ROI)  
-- **Social sync**: auto-post specials to TikTok/IG  
-- **AI review spam filter**  
+- **Social sync**: auto-post specials to TikTok/IG
+- **AI review spam filter**
 - **Multi-location chains API**
 
 ---
+
+## 9. Sub-Articles in This Series
+- [Do You Really Need a Website?](why/)
+- [Taming the Google Maps Wild West](wild/)
+- [Where Bad Sites Come From](when/)
+- [PDF Menus → Microsites](pdf/)
+- [Time-Slot Deals for Any Business](time/)
+- [AI-Generated Instant Sites](ai/)
+- [Curating Google Maps Listings](curate/)
+- [The Microsite Flywheel](fly/)
+- [A Freemium Model Owners Trust](price/)
+- [Roadmap & Next Steps](next/)
+
+---
+ 
