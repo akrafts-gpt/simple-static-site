@@ -1,85 +1,107 @@
-# Google-Maps-First Presence for Local Businesses  
-*A quick gateway to the full article series*
-
-> **Why this page?** Think of it as the “executive summary.” Skim the essentials here, then dive deeper through the linked sub-articles when you’re ready.
-
----
-
-## 1 | The Big Idea — in 30 seconds  
-Local cafés, barbers, bakeries and boutique hotels are found first on **Google Maps**, yet:
-
-* Many still rely on clunky DIY sites or a lonely PDF menu.  
-* Crowdsourced photos and reviews turn popular listings into a noisy “Wild West.”  
-* Maps and social feeds don’t handle bookings, dynamic offers, or owner storytelling.
-
-**Our platform** adds a light, owner-controlled layer on top:  
-1. **Instant, mobile microsite** generated from existing Maps data.  
-2. **Curated overlay** that pins the best photos & reviews, hiding the junk.  
-3. **Deal engine** that fills off-peak slots and promotes cross-business bundles.
-
-If that already makes sense, jump straight to *[AI-Generated Instant Sites](ai/)*.
+## Table of Contents
+1. [Context & Core Concept](#context--core-concept)  
+2. [Problems Identified](#problems-identified)  
+   2.1. [Poor Web Presence](#poor-web-presence)  
+   2.2. [Google Maps “Wild West”](#google-maps-wild-west)  
+   2.3. [Platform Gaps for Conversion](#platform-gaps-for-conversion)  
+3. [Market Research — Where Today’s Bad Sites Come From](#market-research--where-todays-bad-sites-come-from)  
+4. [Proposed Solution Suite](#proposed-solution-suite)  
+   4.1. [Google-Maps-First Websites](#google-maps-first-websites)  
+   4.2. [Owner-Curated Overlay for Maps](#owner-curated-overlay-for-maps)  
+   4.3. [AI-Generated “Instant Sites”](#ai-generated-instant-sites)  
+5. [Cross-Business Promotion & Dynamic Offers](#cross-business-promotion--dynamic-offers)  
+6. [Business Model & Pricing](#business-model--pricing)  
+7. [Benefits by Stakeholder](#benefits-by-stakeholder)  
+8. [Future Enhancements](#future-enhancements)  
+9. [Sub-Articles in This Series](#sub-articles-in-this-series)
 
 ---
 
-## 2 | The Pain Points We Fix  
-
-* **Outdated or missing websites** – slow, generic, unedited since 2017.  
-  * Deep dive: *[Where Bad Sites Come From](when/)*  
-* **“Wild West” listings on Maps** – random photos, legacy reviews, wrong menus.  
-  * How we tame it: *[Taming the Google Maps Wild West](wild/)*  
-* **Lost conversions** – no built-in bookings, no discounts, no loyalty.  
-  * Monetisation playbook: *[Time-Slot Deals for Any Business](time/)*
+## 1. Context & Core Concept
+**Mission:** help small, place-based businesses look great to the customers who already find them on Google Maps.  
+**Key idea:** most neighbourhood venues do **not** need a heavy website or a custom app—just a lightning-fast, mobile-ready landing page that fills the gaps Maps and social media leave open.
 
 ---
 
-## 3 | Our Three-Layer Solution (Quick Glance)
+## 2. Problems Identified
+### 2.1. Poor Web Presence
+* Many owners still rely on decade-old DIY pages or single-page PDFs.  
+* Lack of time, skill, and budget keeps those sites frozen in time.
 
-| Layer | 3-word summary | Learn more |
-|-------|----------------|-----------|
-| **Microsite** | Fast one-pager | *[AI-Generated Instant Sites](ai/)* |
-| **Overlay** | Curate & highlight | *[Curating Google Maps Listings](curate/)* |
-| **Marketplace** | Cross-promo flywheel | *[The Microsite Flywheel](fly/)* |
+### 2.2. Google Maps “Wild West”
+* Anyone can post photos or reviews; signal is mixed with a lot of noise.  
+* Out-of-date menus and legacy 1-star reviews scare new guests away.
 
-Each layer works alone; together they compound.
-
----
-
-## 4 | Why Owners, Customers & We All Win  
-
-* **Owners** – zero-code site, clean Maps profile, more bookings.  
-* **Customers** – up-to-date info, easy reservations, relevant deals.  
-* **Platform** – fair freemium revenue and richer local discovery.
-
-Pricing stays transparent—see *[A Freemium Model Owners Trust](price/)*.
+### 2.3. Platform Gaps for Conversion
+* Maps offers directions and a phone number—nothing more.  
+* No built-in booking, no off-peak discounts, no loyalty hooks.
 
 ---
 
-## 5 | What’s Coming Next  
-
-* Multi-location dashboard (2025)  
-* Built-in payments & deposits  
-* AI demand forecasting for smarter discounts  
-* AR way-finding overlay in 2027  
-
-Full timeline: *[Roadmap & Next Steps](next/)*
+## 3. Market Research — Where Today’s Bad Sites Come From
+* **DIY builders** (Wix, Jimdo) → easy start, but heavy code and poor SEO.  
+* **Marketplace freelancers** → low-cost themes, no maintenance contract.  
+* **Local “friend who codes”** → enthusiasm fades; site rots.  
+* **Small agencies** → decent design but pricey and often locked to their hosting.  
+* **No site at all** → a Google Doc or PDF menu; zero analytics, awkward on phones.
 
 ---
 
-## 6 | Explore the Full Series  
+## 4. Proposed Solution Suite
+### 4.1. Google-Maps-First Websites
+A single, responsive page that loads in <1 s, carries structured menu data, and can be “added to Home Screen” like an app.
 
-1. **Do You Really Need a Website?** *(why/)*  
-2. **Taming the Google Maps Wild West** *(wild/)*  
-3. **Where Bad Sites Come From** *(when/)*  
-4. **PDF Menus → Microsites** *(pdf/)*  
-5. **Time-Slot Deals for Any Business** *(time/)*  
-6. **AI-Generated Instant Sites** *(ai/)*  
-7. **Curating Google Maps Listings** *(curate/)*  
-8. **The Microsite Flywheel** *(fly/)*  
-9. **A Freemium Model Owners Trust** *(price/)*  
-10. **Roadmap & Next Steps** *(next/)*
+### 4.2. Owner-Curated Overlay for Maps
+A light overlay that pins the best photos and reviews, hides junk, and shows live banners—without touching Google’s DOM.
 
-*Pick a topic that matters most to you and dive in—each article stands on its own but also links forward and back for an easy reading path.*
+### 4.3. AI-Generated “Instant Sites”
+1. Import public Maps data.  
+2. Clean with AI (drop blurry pics, rewrite reviews).  
+3. Auto-layout into a branded template.  
+4. Owner tweaks, then publishes with one click.
 
 ---
 
-© 2025 – Feel free to quote or remix with attribution.
+## 5. Cross-Business Promotion & Dynamic Offers
+* **Off-peak discounts** (inspired by The Fork) fill empty chairs on slow days.  
+* **Surplus flash sales** (Too Good To Go style) clear perishables or stale stock.  
+* **Neighbour bundles** let two or three nearby venues sell a combo experience.
+
+---
+
+## 6. Business Model & Pricing
+* **Free** – core microsite, HTTPS, booking button, small footer badge.  
+* **Starter** – remove badge, add custom domain + basic analytics.  
+* **Growth** – loyalty QR, advanced analytics, unlimited deals.  
+* **Pro** – API, headless export, multi-location dashboard.  
+All tiers are ad-free; upgrade prompts appear only when usage caps are truly hit.
+
+---
+
+## 7. Benefits by Stakeholder
+* **Owners:** zero-code site, curated Maps presence, higher conversion.  
+* **Customers:** accurate info, instant reservations, relevant offers.  
+* **Platform:** sustainable freemium revenue and richer local discovery data.
+
+---
+
+## 8. Future Enhancements
+* Integrated payments & deposits  
+* Real-time analytics dashboard  
+* Social-media auto-sync  
+* AI review-spam filter  
+* AR way-finding and multi-location API (see Roadmap sub-article)
+
+---
+
+## 9. Sub-Articles in This Series
+- [Do You Really Need a Website?](why/)
+- [Taming the Google Maps Wild West](wild/)
+- [Where Bad Sites Come From](when/)
+- [PDF Menus → Microsites](pdf/)
+- [Time-Slot Deals for Any Business](time/)
+- [AI-Generated Instant Sites](ai/)
+- [Curating Google Maps Listings](curate/)
+- [The Microsite Flywheel](fly/)
+- [A Freemium Model Owners Trust](price/)
+- [Roadmap & Next Steps](next/)
