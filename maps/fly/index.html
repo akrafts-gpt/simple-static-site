@@ -1,0 +1,1422 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://akrafts.com/maps/fly/">
+      
+      
+        <link rel="prev" href="../price/">
+      
+      
+        <link rel="next" href="../time/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>Fly - Simple Static Site</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-microsite-flywheel" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Simple Static Site" class="md-header__button md-logo" aria-label="Simple Static Site" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Simple Static Site
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Fly
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Simple Static Site" class="md-nav__button md-logo" aria-label="Simple Static Site" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Simple Static Site
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aerolink/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aerolink
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ambient/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ambient
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contact
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../echo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Echo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fly
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gourmet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gourmet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Maps
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Maps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../why/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Why
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../when/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    When
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pdf/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PDF
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wild/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wild
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../next/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Next
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../curate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Curate
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../price/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Price
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Fly
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fly
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-what-is-the-microsite-flywheel" class="md-nav__link">
+    <span class="md-ellipsis">
+      1 | What Is the Microsite Flywheel?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-three-components-of-the-flywheel" class="md-nav__link">
+    <span class="md-ellipsis">
+      2 | Three Components of the Flywheel
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-the-customer-journey" class="md-nav__link">
+    <span class="md-ellipsis">
+      3 | The Customer Journey
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-network-effect-math" class="md-nav__link">
+    <span class="md-ellipsis">
+      4 | Network-Effect Math
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-cross-business-collaboration-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      5 | Cross-Business Collaboration Patterns
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5 | Cross-Business Collaboration Patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-neighbour-bundles" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1 Neighbour Bundles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-theme-trails" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2 Theme Trails
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-seasonal-passports" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.3 Seasonal Passports
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-owner-on-ramp-30-day-playbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      6 | Owner On-Ramp (30-Day Playbook)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-governance-quality-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      7 | Governance &amp; Quality Control
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-financial-upside" class="md-nav__link">
+    <span class="md-ellipsis">
+      8 | Financial Upside
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-case-study-lisbon-pink-street-cluster" class="md-nav__link">
+    <span class="md-ellipsis">
+      9 | Case Study – Lisbon “Pink Street Cluster”
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-potential-pitfalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      10 | Potential Pitfalls
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-roadmap-hooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      11 | Roadmap Hooks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-key-take-aways" class="md-nav__link">
+    <span class="md-ellipsis">
+      12 | Key Take-Aways
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-next-reads" class="md-nav__link">
+    <span class="md-ellipsis">
+      13 | Next Reads
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../time/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Time
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AI
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personal_virtual_embassy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Personal Virtual Embassy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tribe-to-fly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tribe to Fly
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-what-is-the-microsite-flywheel" class="md-nav__link">
+    <span class="md-ellipsis">
+      1 | What Is the Microsite Flywheel?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-three-components-of-the-flywheel" class="md-nav__link">
+    <span class="md-ellipsis">
+      2 | Three Components of the Flywheel
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-the-customer-journey" class="md-nav__link">
+    <span class="md-ellipsis">
+      3 | The Customer Journey
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-network-effect-math" class="md-nav__link">
+    <span class="md-ellipsis">
+      4 | Network-Effect Math
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-cross-business-collaboration-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      5 | Cross-Business Collaboration Patterns
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5 | Cross-Business Collaboration Patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-neighbour-bundles" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1 Neighbour Bundles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-theme-trails" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2 Theme Trails
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-seasonal-passports" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.3 Seasonal Passports
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-owner-on-ramp-30-day-playbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      6 | Owner On-Ramp (30-Day Playbook)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-governance-quality-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      7 | Governance &amp; Quality Control
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-financial-upside" class="md-nav__link">
+    <span class="md-ellipsis">
+      8 | Financial Upside
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-case-study-lisbon-pink-street-cluster" class="md-nav__link">
+    <span class="md-ellipsis">
+      9 | Case Study – Lisbon “Pink Street Cluster”
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-potential-pitfalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      10 | Potential Pitfalls
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-roadmap-hooks" class="md-nav__link">
+    <span class="md-ellipsis">
+      11 | Roadmap Hooks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-key-take-aways" class="md-nav__link">
+    <span class="md-ellipsis">
+      12 | Key Take-Aways
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-next-reads" class="md-nav__link">
+    <span class="md-ellipsis">
+      13 | Next Reads
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="the-microsite-flywheel">The Microsite Flywheel</h1>
+<p><em>How interconnected, Google-Maps-first pages drive compounding traffic, bookings, and trust for local businesses.</em></p>
+<blockquote>
+<p><strong>Part of the series:</strong>
+• <a href="../">Overview</a>
+• <a href="../why/">Do You Really Need a Website?</a>
+• <a href="../wild/">Taming the Google Maps Wild West</a>
+• <a href="../when/">Where Bad Sites Come From</a>
+• <a href="../pdf/">PDF Menus → Microsites</a><br />
+• <a href="../time/">Time-Slot Deals for Any Business</a><br />
+• <a href="../ai/">AI-Generated Instant Sites</a><br />
+• <a href="../curate/">Curating Google Maps Listings</a><br />
+• <strong>The Microsite Flywheel</strong> (you are here)<br />
+• <a href="../price/">A Freemium Model Owners Trust</a><br />
+• <a href="../next/">Roadmap &amp; Next Steps</a></p>
+</blockquote>
+<hr />
+<h2 id="1-what-is-the-microsite-flywheel">1 | What Is the Microsite Flywheel?</h2>
+<p>A <strong>flywheel</strong> is a self-reinforcing loop: each spin adds momentum that drives the next.<br />
+For local businesses, every owner-managed microsite (see <strong>AI-Generated Instant Sites</strong>) links into a <strong>shared discovery marketplace</strong>. Each new site:  </p>
+<ul>
+<li>Adds fresh, search-indexed content → improves overall SEO authority.  </li>
+<li>Surfaces cross-promotions → lifts redemption for neighbours’ deals.  </li>
+<li>Generates user data → refines recommendation algorithms, improving click-through.</li>
+</ul>
+<p>Result: traffic and bookings compound—without paid ads.</p>
+<hr />
+<h2 id="2-three-components-of-the-flywheel">2 | Three Components of the Flywheel</h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Role</th>
+<th>Related Article</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Owner Microsite</strong></td>
+<td>Fast, structured landing page</td>
+<td>AI-Generated Instant Sites</td>
+</tr>
+<tr>
+<td><strong>Overlay Banners</strong></td>
+<td>Pull live specials into Google Maps</td>
+<td>Curating Google Maps Listings</td>
+</tr>
+<tr>
+<td><strong>Marketplace Carousel</strong></td>
+<td>Aggregates nearby offers &amp; events</td>
+<td>Time-Slot Deals for Any Business</td>
+</tr>
+</tbody>
+</table>
+<p>Each element can stand alone, but combined they accelerate one another.</p>
+<hr />
+<h2 id="3-the-customer-journey">3 | The Customer Journey</h2>
+<ol>
+<li><strong>Discovery</strong> – User opens Google Maps, sees an overlay banner: “–20 % off 3 pm haircut.”  </li>
+<li><strong>Click-through</strong> – Banner links to the barber’s microsite; page loads in ~1 s.  </li>
+<li><strong>Cross-Promo Swipe</strong> – Carousel suggests “Free pastry with coffee next door.”  </li>
+<li><strong>Bundle Checkout</strong> – User books both offers; wallet pass issued.  </li>
+<li><strong>Post-Visit Review</strong> – Microsite thanks user, nudges 5-star review → feeds back into Maps ranking (see <strong>Taming the Google Maps Wild West</strong>).  </li>
+<li><strong>Algorithm Learn</strong> – Engine notes user likes pastry + grooming, boosts similar combos to next visitor profile.</li>
+</ol>
+<p>Loops repeat, spinning faster as inventory and data grow.</p>
+<hr />
+<h2 id="4-network-effect-math">4 | Network-Effect Math</h2>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Formula</th>
+<th>Typical Starting Value</th>
+<th>Target @ 12 mo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>N</strong> = live microsites</td>
+<td>—</td>
+<td>50</td>
+<td>2 500</td>
+</tr>
+<tr>
+<td><strong>V</strong> = avg. visits/site/mo</td>
+<td>—</td>
+<td>600</td>
+<td>1 200</td>
+</tr>
+<tr>
+<td><strong>CTR</strong> = carousel clicks / visits</td>
+<td>6–10 %</td>
+<td>8 %</td>
+<td>14 %</td>
+</tr>
+<tr>
+<td><strong>Bookings</strong> = N × V × CTR × conv. 25 %</td>
+<td>600</td>
+<td>42 000</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>More sites → more inventory → higher CTR → search engines crawl more frequently → better rankings → more sites join.</p>
+<hr />
+<h2 id="5-cross-business-collaboration-patterns">5 | Cross-Business Collaboration Patterns</h2>
+<h3 id="51-neighbour-bundles">5.1 Neighbour Bundles</h3>
+<p>Barber + café within 150 m offer “Fade &amp; Flat White” combo at 10 % off.</p>
+<h3 id="52-theme-trails">5.2 Theme Trails</h3>
+<p>“Vegan Day Out” page auto-compiles six vegan-friendly microsites into a walkable map. Inspired by structured data described in <strong>PDF Menus → Microsites</strong>.</p>
+<h3 id="53-seasonal-passports">5.3 Seasonal Passports</h3>
+<p>Holiday “Winter Warmers” pass unlocks three hot-drink vouchers across different cafés; tracked via single QR code.</p>
+<p>Bundles appear in overlay banners and marketplace lists; eligibility rules live in the Growth tier (pricing in <strong>A Freemium Model Owners Trust</strong>).</p>
+<hr />
+<h2 id="6-owner-on-ramp-30-day-playbook">6 | Owner On-Ramp (30-Day Playbook)</h2>
+<table>
+<thead>
+<tr>
+<th>Week</th>
+<th>Action</th>
+<th>Outcome</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Launch Instant Site, enable overlay</td>
+<td>Baseline traffic +12 %</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Add first Time-Slot Deal</td>
+<td>Off-peak revenue bump</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Join or create a neighbour bundle</td>
+<td>Traffic from partner fans</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Publish themed blog post via CMS</td>
+<td>SEO lift, cross-links other microsites</td>
+</tr>
+</tbody>
+</table>
+<p>Touchpoints are automated via onboarding emails and dashboard wizards.</p>
+<hr />
+<h2 id="7-governance-quality-control">7 | Governance &amp; Quality Control</h2>
+<ul>
+<li><strong>Relevance Score</strong> – AI ranks bundles by proximity, category, price parity.  </li>
+<li><strong>Duplicate Guard</strong> – No site appears in &gt;3 bundles to prevent spam.  </li>
+<li><strong>User Voting</strong> – Consumers upvote helpful bundles; low-ranked ones auto-expire.  </li>
+<li><strong>Merchant Review</strong> – Owners can opt out of appearing on competitor pages.</li>
+</ul>
+<p>Policies mirror the ethical stance in <strong>A Freemium Model Owners Trust</strong>.</p>
+<hr />
+<h2 id="8-financial-upside">8 | Financial Upside</h2>
+<table>
+<thead>
+<tr>
+<th>Revenue Channel</th>
+<th>Model</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Booking fees</td>
+<td>€0.10 per Free-tier booking</td>
+<td>Barber chair slot</td>
+</tr>
+<tr>
+<td>Subscription</td>
+<td>Tier upgrades</td>
+<td>Café moves to Growth for loyalty QR</td>
+</tr>
+<tr>
+<td>Revenue share</td>
+<td>2 % affiliate on cross-promo sale</td>
+<td>Boutique sells scarf via bundle</td>
+</tr>
+</tbody>
+</table>
+<p>Free-tier sites profit from incoming traffic; platform profits when they upgrade.</p>
+<hr />
+<h2 id="9-case-study-lisbon-pink-street-cluster">9 | Case Study – Lisbon “Pink Street Cluster”</h2>
+<ul>
+<li>7 microsites (3 bars, 2 restaurants, 1 tattoo studio, 1 hostel).  </li>
+<li>Shared “Pink Street Passport” (Friday 6-10 pm) launched Q2 2025.  </li>
+<li><strong>60-day results:</strong>  </li>
+<li>Collective footfall +27 % (vs. same period LY).  </li>
+<li>Average spend per visitor €38 → €46.  </li>
+<li>Two bars upgraded to Growth tier for analytics, confirming <strong>Freemium Model</strong> viability.</li>
+</ul>
+<p>Data correlates with the uplift examples in <strong>Time-Slot Deals for Any Business</strong>.</p>
+<hr />
+<h2 id="10-potential-pitfalls">10 | Potential Pitfalls</h2>
+<table>
+<thead>
+<tr>
+<th>Pitfall</th>
+<th>Mitigation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Oversaturation (too many offers)</td>
+<td>Algorithm caps offers per user per session</td>
+</tr>
+<tr>
+<td>Partner disputes on bundle terms</td>
+<td>Escrow system holds revenue until redemption logged</td>
+</tr>
+<tr>
+<td>Cross-site SEO cannibalisation</td>
+<td>Canonical tags reference primary site</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="11-roadmap-hooks">11 | Roadmap Hooks</h2>
+<table>
+<thead>
+<tr>
+<th>Qtr</th>
+<th>New Flywheel Booster</th>
+<th>Linked Article</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2025 Q4</td>
+<td>AI-generated video shorts for bundles</td>
+<td>Roadmap &amp; Next Steps</td>
+</tr>
+<tr>
+<td>2026 Q1</td>
+<td>Loyalty wallet auto-redeem</td>
+<td>A Freemium Model Owners Trust</td>
+</tr>
+<tr>
+<td>2026 Q2</td>
+<td>Real-time footfall heatmap</td>
+<td>Curating Google Maps Listings</td>
+</tr>
+<tr>
+<td>2026 Q3</td>
+<td>Open Partner API for tourism boards</td>
+<td>AI-Generated Instant Sites (headless mode)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="12-key-take-aways">12 | Key Take-Aways</h2>
+<ol>
+<li>Interlinking microsites turns isolated pages into a demand network.  </li>
+<li>Every new site spins the flywheel faster—more data, better offers, higher CTR.  </li>
+<li>Owner wins: free traffic. User wins: relevant combos. Platform wins: tier upgrades and booking fees.  </li>
+<li>Ethical governance and performance budgets keep the loop sustainable, echoing principles in <strong>A Freemium Model Owners Trust</strong>.</li>
+</ol>
+<hr />
+<h2 id="13-next-reads">13 | Next Reads</h2>
+<ul>
+<li><strong>Time-Slot Deals for Any Business</strong> – Feed the flywheel with inventory-based incentives.  </li>
+<li><strong>Curating Google Maps Listings</strong> – Ensure bundles shine inside Maps.  </li>
+<li><strong>Roadmap &amp; Next Steps</strong> – See what’s planned to double flywheel velocity.</li>
+</ul>
+<hr />
+<p>© 2025 – Copy, remix, or translate with attribution.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+    
+  </body>
+</html>

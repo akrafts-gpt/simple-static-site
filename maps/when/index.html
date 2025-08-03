@@ -1,0 +1,1432 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://akrafts.com/maps/when/">
+      
+      
+        <link rel="prev" href="../why/">
+      
+      
+        <link rel="next" href="../pdf/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>When - Simple Static Site</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#where-bad-sites-come-from" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Simple Static Site" class="md-header__button md-logo" aria-label="Simple Static Site" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Simple Static Site
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              When
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Simple Static Site" class="md-nav__button md-logo" aria-label="Simple Static Site" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Simple Static Site
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aerolink/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aerolink
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ambient/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ambient
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contact
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../echo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Echo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fly
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gourmet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gourmet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Maps
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Maps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../why/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Why
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    When
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    When
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-the-paradox-of-the-bad-local-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      1 | The Paradox of the Bad Local Website
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-four-supply-channels-for-bad-sites" class="md-nav__link">
+    <span class="md-ellipsis">
+      2 | Four Supply Channels for Bad Sites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-root-causes-behind-each-channel" class="md-nav__link">
+    <span class="md-ellipsis">
+      3 | Root Causes Behind Each Channel
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3 | Root Causes Behind Each Channel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-diy-builder-trap" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 DIY Builder Trap
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-freelance-roulette" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Freelance Roulette
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-friend-coder-syndrome" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Friend-Coder Syndrome
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-agency-lock-in" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4 Agency Lock-In
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-the-6-point-site-rottenness-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      4 | The 6-Point “Site Rottenness” Test
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-case-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      5 | Case Files
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5 | Case Files">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-beard-brew-barbers" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1 “Beard &amp; Brew Barbers”
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-la-nonna-pizzeria" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2 “La Nonna Pizzeria”
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-bloom-boutique-hotel" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.3 “Bloom Boutique Hotel”
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-decision-matrix-keep-fix-or-rebuild" class="md-nav__link">
+    <span class="md-ellipsis">
+      6 | Decision Matrix: Keep, Fix, or Rebuild?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-choosing-a-better-path-forward" class="md-nav__link">
+    <span class="md-ellipsis">
+      7 | Choosing a Better Path Forward
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-avoiding-future-decay" class="md-nav__link">
+    <span class="md-ellipsis">
+      8 | Avoiding Future Decay
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-key-take-aways" class="md-nav__link">
+    <span class="md-ellipsis">
+      9 | Key Take-Aways
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-next-reads" class="md-nav__link">
+    <span class="md-ellipsis">
+      10 | Next Reads
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pdf/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PDF
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wild/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wild
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../next/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Next
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../curate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Curate
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../price/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Price
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fly
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../time/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Time
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AI
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personal_virtual_embassy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Personal Virtual Embassy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tribe-to-fly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tribe to Fly
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-the-paradox-of-the-bad-local-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      1 | The Paradox of the Bad Local Website
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-four-supply-channels-for-bad-sites" class="md-nav__link">
+    <span class="md-ellipsis">
+      2 | Four Supply Channels for Bad Sites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-root-causes-behind-each-channel" class="md-nav__link">
+    <span class="md-ellipsis">
+      3 | Root Causes Behind Each Channel
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3 | Root Causes Behind Each Channel">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-diy-builder-trap" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 DIY Builder Trap
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-freelance-roulette" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Freelance Roulette
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-friend-coder-syndrome" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Friend-Coder Syndrome
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-agency-lock-in" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4 Agency Lock-In
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-the-6-point-site-rottenness-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      4 | The 6-Point “Site Rottenness” Test
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-case-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      5 | Case Files
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5 | Case Files">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-beard-brew-barbers" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.1 “Beard &amp; Brew Barbers”
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-la-nonna-pizzeria" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.2 “La Nonna Pizzeria”
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-bloom-boutique-hotel" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.3 “Bloom Boutique Hotel”
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-decision-matrix-keep-fix-or-rebuild" class="md-nav__link">
+    <span class="md-ellipsis">
+      6 | Decision Matrix: Keep, Fix, or Rebuild?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-choosing-a-better-path-forward" class="md-nav__link">
+    <span class="md-ellipsis">
+      7 | Choosing a Better Path Forward
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-avoiding-future-decay" class="md-nav__link">
+    <span class="md-ellipsis">
+      8 | Avoiding Future Decay
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-key-take-aways" class="md-nav__link">
+    <span class="md-ellipsis">
+      9 | Key Take-Aways
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-next-reads" class="md-nav__link">
+    <span class="md-ellipsis">
+      10 | Next Reads
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="where-bad-sites-come-from">Where Bad Sites Come From</h1>
+<p><em>Tracing the root causes of ugly, slow, and useless local-business websites—so you can avoid them.</em></p>
+<blockquote>
+<p><strong>Part of the series:</strong>
+• <a href="../">Overview</a>
+• <a href="../why/">Do You Really Need a Website?</a>
+• <a href="../wild/">Taming the Google Maps Wild West</a>
+• <strong>Where Bad Sites Come From</strong> (you are here)
+• <a href="../pdf/">PDF Menus → Microsites</a>
+• <a href="../ai/">AI-Generated Instant Sites</a>
+• <a href="../time/">Time-Slot Deals for Any Business</a>
+• <a href="../curate/">Curating Google Maps Listings</a>
+• <a href="../fly/">The Microsite Flywheel</a>
+• <a href="../price/">A Freemium Model Owners Trust</a>
+• <a href="../next/">Roadmap &amp; Next Steps</a></p>
+</blockquote>
+<hr />
+<h2 id="1-the-paradox-of-the-bad-local-website">1 | The Paradox of the Bad Local Website</h2>
+<ul>
+<li><strong>Everyone complains</strong> about clunky restaurant sites and unresponsive salon pages.  </li>
+<li><strong>Yet</strong> those same businesses keep commissioning (or ignoring) them.  </li>
+<li><strong>Result:</strong> a web littered with autoplay music, PDF menus, and 1999 design vibes.</li>
+</ul>
+<p>If you’re asking whether you need a site at all, start with <em><a href="../why/">Do You Really Need a Website?</a></em>; this article assumes you’ve said “yes—something.”</p>
+<hr />
+<h2 id="2-four-supply-channels-for-bad-sites">2 | Four Supply Channels for Bad Sites</h2>
+<table>
+<thead>
+<tr>
+<th>Channel</th>
+<th>Typical Budget</th>
+<th>Why Businesses Choose It</th>
+<th>Common Pitfalls</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>DIY Builders</strong> (Wix, Jimdo, SiteW)</td>
+<td>€0–€15 / mo</td>
+<td>“I can drag-and-drop!”</td>
+<td>Heavy scripts → slow load; zero SEO; owner fatigue</td>
+</tr>
+<tr>
+<td><strong>Marketplace Freelancers</strong> (Fiverr, Upwork)</td>
+<td>€100–€500 one-off</td>
+<td>“Cheap &amp; quick”</td>
+<td>Cloned themes, no maintenance plan, vanish after payment</td>
+</tr>
+<tr>
+<td><strong>Local “Friend Who Codes”</strong></td>
+<td>Pizza &amp; thanks</td>
+<td>“Mate will sort it”</td>
+<td>Hobby code, no backups, single-point failure</td>
+</tr>
+<tr>
+<td><strong>Small Digital Agencies</strong></td>
+<td>€2–5 k build + €50 / mo</td>
+<td>“Professional look”</td>
+<td>Lock-in hosting, upsell treadmill, slow change requests</td>
+</tr>
+</tbody>
+</table>
+<p>For the historic angle on restaurants specifically, see <em><a href="../pdf/">PDF Menus → Microsites</a></em>.</p>
+<hr />
+<h2 id="3-root-causes-behind-each-channel">3 | Root Causes Behind Each Channel</h2>
+<h3 id="31-diy-builder-trap">3.1 DIY Builder Trap</h3>
+<ol>
+<li><strong>Template fatigue</strong>—everything looks the same.  </li>
+<li><strong>Feature bloat</strong>—unused widgets add MBs of JavaScript.  </li>
+<li><strong>SEO blinders</strong>—owners don’t tweak meta tags or alt text.  </li>
+<li><strong>Update paralysis</strong>—after launch, nobody logs in again.</li>
+</ol>
+<h3 id="32-freelance-roulette">3.2 Freelance Roulette</h3>
+<ul>
+<li><strong>Time-boxed gigs</strong>: “Two revisions only” leaves bugs uncaught.  </li>
+<li><strong>Theme-forest syndrome</strong>: same theme reused 100× in your city.  </li>
+<li><strong>No SLA</strong>: site breaks on plugin update → ghosted.</li>
+</ul>
+<h3 id="33-friend-coder-syndrome">3.3 Friend-Coder Syndrome</h3>
+<ul>
+<li>Night-project enthusiasm evaporates in month two.  </li>
+<li>Personal GitHub → no staging / CI pipeline.  </li>
+<li>Single point of knowledge = long-term risk.</li>
+</ul>
+<h3 id="34-agency-lock-in">3.4 Agency Lock-In</h3>
+<ul>
+<li>Monthly retainer covers <em>minor</em> edits; major ones cost extra.  </li>
+<li>Proprietary CMS = leaving means rebuilding from scratch.  </li>
+<li>Relies on heavy plugins (sliders, analytics) → performance drag.</li>
+</ul>
+<p>See how an owner-curated overlay can complement or replace these in <em><a href="../curate/">Curating Google Maps Listings</a></em>.</p>
+<hr />
+<h2 id="4-the-6-point-site-rottenness-test">4 | The 6-Point “Site Rottenness” Test</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Pass Mark</th>
+<th>Warning Sign</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mobile Speed</strong></td>
+<td>&lt; 3 s on 3 G</td>
+<td>6 s+ / layout shifts</td>
+</tr>
+<tr>
+<td><strong>Core Info Above Fold</strong></td>
+<td>Name, hours, CTA visible</td>
+<td>Giant hero video first</td>
+</tr>
+<tr>
+<td><strong>Last Update Date</strong></td>
+<td>&lt; 90 days</td>
+<td>“© 2016” footer</td>
+</tr>
+<tr>
+<td><strong>Menu / Service List</strong></td>
+<td>Live HTML</td>
+<td>PDF or image scan</td>
+</tr>
+<tr>
+<td><strong>SSL &amp; Privacy</strong></td>
+<td>HTTPS, cookies banner</td>
+<td>“Not Secure” badge</td>
+</tr>
+<tr>
+<td><strong>Booking / Contact Flow</strong></td>
+<td>≤ 3 taps</td>
+<td>Mailto: link only</td>
+</tr>
+</tbody>
+</table>
+<p>Add these into your quarterly audit calendar; see <em><a href="../price/">A Freemium Model Owners Trust</a></em> for automated reminders.</p>
+<hr />
+<h2 id="5-case-files">5 | Case Files</h2>
+<h3 id="51-beard-brew-barbers">5.1 “Beard &amp; Brew Barbers”</h3>
+<ul>
+<li><strong>Source</strong>: Friend-coder (React SPA).  </li>
+<li><strong>Issue</strong>: 4 MB bundle, fails on older Android.  </li>
+<li><strong>Fix</strong>: Swapped to microsite + <em><a href="../time/">Time-Slot Deals for Any Business</a></em> widget.  </li>
+<li><strong>Outcome</strong>: 28 % lift in weekday seats.</li>
+</ul>
+<h3 id="52-la-nonna-pizzeria">5.2 “La Nonna Pizzeria”</h3>
+<ul>
+<li><strong>Source</strong>: Upwork WordPress theme.  </li>
+<li><strong>Issue</strong>: Menu as JPEG; no alt text; CLS warnings.  </li>
+<li><strong>Fix</strong>: AI-generated instant site (see <em><a href="../ai/">AI-Generated Instant Sites</a></em>).  </li>
+<li><strong>Outcome</strong>: PageSpeed 92 → 99; online orders +17 %.</li>
+</ul>
+<h3 id="53-bloom-boutique-hotel">5.3 “Bloom Boutique Hotel”</h3>
+<ul>
+<li><strong>Source</strong>: Agency package with proprietary CMS.  </li>
+<li><strong>Issue</strong>: €120 / hr change fee; outdated gallery.  </li>
+<li><strong>Fix</strong>: Hybrid: keep CMS for blog, add overlay + microsite for quick promos.  </li>
+<li><strong>Outcome</strong>: Promo landing loads in 1.2 s; 35 % higher direct-booking margin.</li>
+</ul>
+<hr />
+<h2 id="6-decision-matrix-keep-fix-or-rebuild">6 | Decision Matrix: Keep, Fix, or Rebuild?</h2>
+<table>
+<thead>
+<tr>
+<th>Current State</th>
+<th>Keep As-Is</th>
+<th>Patch (Overlay)</th>
+<th>Full Rebuild</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Loads &lt;3 s, mobile OK, easy edit</strong></td>
+<td>✅</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Slow but platform stable</strong></td>
+<td>—</td>
+<td>✅ (add overlay, strip junk)</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>Can’t edit, friend vanished</strong></td>
+<td>—</td>
+<td>—</td>
+<td>✅ (instant site)</td>
+</tr>
+<tr>
+<td><strong>Agency lock-in, high fees</strong></td>
+<td>—</td>
+<td>✅ (overlay + gradual migration)</td>
+<td>→ Evaluate</td>
+</tr>
+</tbody>
+</table>
+<p>Overlay concept detailed in <em><a href="../wild/">Taming the Google Maps Wild West</a></em>.</p>
+<hr />
+<h2 id="7-choosing-a-better-path-forward">7 | Choosing a Better Path Forward</h2>
+<ol>
+<li><strong>Audit</strong> with the 6-point test.  </li>
+<li>If &lt; 3 fails → quick overlay &amp; microsite.  </li>
+<li>If 3+ fails → generate new site with AI pipeline.  </li>
+<li>Integrate upsell hooks via <em><a href="../fly/">The Microsite Flywheel</a></em> for long-term growth.</li>
+</ol>
+<hr />
+<h2 id="8-avoiding-future-decay">8 | Avoiding Future Decay</h2>
+<table>
+<thead>
+<tr>
+<th>Guardrail</th>
+<th>Implementation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Auto-updates</strong></td>
+<td>Platform patches templates &amp; security weekly</td>
+</tr>
+<tr>
+<td><strong>Modular CMS</strong></td>
+<td>Swap components without rebuild</td>
+</tr>
+<tr>
+<td><strong>Performance Budgets</strong></td>
+<td>Max 150 KB CSS + JS per page</td>
+</tr>
+<tr>
+<td><strong>Owner Training</strong></td>
+<td>15-min video onboarding; ongoing tooltips</td>
+</tr>
+</tbody>
+</table>
+<p>Our roadmap adds live <strong>Performance Score alerts</strong>—see <em><a href="../next/">Roadmap &amp; Next Steps</a></em>.</p>
+<hr />
+<h2 id="9-key-take-aways">9 | Key Take-Aways</h2>
+<ul>
+<li>Bad sites are born from <strong>cost-cutting shortcuts or over-engineered lock-ins</strong>.  </li>
+<li>Diagnose with a simple mobile-first checklist.  </li>
+<li>Overlays and AI-generated microsites give a <strong>fast escape hatch</strong>.  </li>
+<li>Future-proof with guardrails, not one-off redesigns.</li>
+</ul>
+<hr />
+<h2 id="10-next-reads">10 | Next Reads</h2>
+<ul>
+<li><strong><a href="../wild/">Taming the Google Maps Wild West</a></strong> – Fix your listing before fixing your site.  </li>
+<li><strong><a href="../ai/">AI-Generated Instant Sites</a></strong> – See a new site spin up in minutes.  </li>
+<li><strong><a href="../price/">A Freemium Model Owners Trust</a></strong> – Understand the cost path.</li>
+</ul>
+<hr />
+<p><em>© 2025 – Free to share with attribution.</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+    
+  </body>
+</html>

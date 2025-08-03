@@ -1,0 +1,1308 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://akrafts.com/maps/curate/">
+      
+      
+        <link rel="prev" href="../next/">
+      
+      
+        <link rel="next" href="../price/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
+    
+    
+      
+        <title>Curate - Simple Static Site</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#curating-google-maps-listings" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Simple Static Site" class="md-header__button md-logo" aria-label="Simple Static Site" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Simple Static Site
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Curate
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Simple Static Site" class="md-nav__button md-logo" aria-label="Simple Static Site" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Simple Static Site
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aerolink/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aerolink
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ambient/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ambient
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contact
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../echo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Echo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fly
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../gourmet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gourmet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Maps
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Maps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../why/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Why
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../when/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    When
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pdf/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    PDF
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wild/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wild
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../next/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Next
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Curate
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Curate
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-why-an-owner-overlay-is-needed" class="md-nav__link">
+    <span class="md-ellipsis">
+      1 | Why an Owner Overlay Is Needed
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-what-exactly-is-the-overlay" class="md-nav__link">
+    <span class="md-ellipsis">
+      2 | What Exactly Is the Overlay?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-key-ux-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      3 | Key UX Principles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-moderation-pipeline-hybrid-ai-human" class="md-nav__link">
+    <span class="md-ellipsis">
+      4 | Moderation Pipeline (Hybrid AI + Human)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-conflict-resolution-playbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      5 | Conflict-Resolution Playbook
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-latency-performance-targets" class="md-nav__link">
+    <span class="md-ellipsis">
+      6 | Latency &amp; Performance Targets
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-security-privacy" class="md-nav__link">
+    <span class="md-ellipsis">
+      7 | Security &amp; Privacy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-case-study-cafe-luna-lisbon" class="md-nav__link">
+    <span class="md-ellipsis">
+      8 | Case Study – Café Luna, Lisbon
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-integration-with-other-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      9 | Integration With Other Features
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-roadmap-for-the-overlay" class="md-nav__link">
+    <span class="md-ellipsis">
+      10 | Roadmap for the Overlay
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-key-take-aways" class="md-nav__link">
+    <span class="md-ellipsis">
+      11 | Key Take-Aways
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-next-reads" class="md-nav__link">
+    <span class="md-ellipsis">
+      12 | Next Reads
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../price/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Price
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fly
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../time/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Time
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ai/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AI
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personal_virtual_embassy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Personal Virtual Embassy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tribe-to-fly/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tribe to Fly
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-why-an-owner-overlay-is-needed" class="md-nav__link">
+    <span class="md-ellipsis">
+      1 | Why an Owner Overlay Is Needed
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-what-exactly-is-the-overlay" class="md-nav__link">
+    <span class="md-ellipsis">
+      2 | What Exactly Is the Overlay?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-key-ux-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      3 | Key UX Principles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-moderation-pipeline-hybrid-ai-human" class="md-nav__link">
+    <span class="md-ellipsis">
+      4 | Moderation Pipeline (Hybrid AI + Human)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-conflict-resolution-playbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      5 | Conflict-Resolution Playbook
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-latency-performance-targets" class="md-nav__link">
+    <span class="md-ellipsis">
+      6 | Latency &amp; Performance Targets
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-security-privacy" class="md-nav__link">
+    <span class="md-ellipsis">
+      7 | Security &amp; Privacy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-case-study-cafe-luna-lisbon" class="md-nav__link">
+    <span class="md-ellipsis">
+      8 | Case Study – Café Luna, Lisbon
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-integration-with-other-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      9 | Integration With Other Features
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-roadmap-for-the-overlay" class="md-nav__link">
+    <span class="md-ellipsis">
+      10 | Roadmap for the Overlay
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-key-take-aways" class="md-nav__link">
+    <span class="md-ellipsis">
+      11 | Key Take-Aways
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-next-reads" class="md-nav__link">
+    <span class="md-ellipsis">
+      12 | Next Reads
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="curating-google-maps-listings">Curating Google Maps Listings</h1>
+<p><em>How to layer owner-approved content on top of the world’s biggest POI database—without breaking UX or Google’s rules.</em></p>
+<blockquote>
+<p><strong>Part of the series:</strong>
+• <a href="../">Overview</a>
+• <a href="../why/">Do You Really Need a Website?</a>
+• <a href="../wild/">Taming the Google Maps Wild West</a>
+• <a href="../when/">Where Bad Sites Come From</a>
+• <a href="../pdf/">PDF Menus → Microsites</a><br />
+• <a href="../time/">Time-Slot Deals for Any Business</a><br />
+• <a href="../ai/">AI-Generated Instant Sites</a><br />
+• <strong>Curating Google Maps Listings</strong> (you are here)<br />
+• <a href="../fly/">The Microsite Flywheel</a><br />
+• <a href="../price/">A Freemium Model Owners Trust</a><br />
+• <a href="../next/">Roadmap &amp; Next Steps</a></p>
+</blockquote>
+<hr />
+<h2 id="1-why-an-owner-overlay-is-needed">1 | Why an Owner Overlay Is Needed</h2>
+<ul>
+<li>Google Maps is the <strong>default homepage</strong> for cafés, dentists, and boutiques.  </li>
+<li>Community uploads keep it fresh—but also cluttered, as shown in <strong>Taming the Google Maps Wild West</strong>.  </li>
+<li>Owners crave a light way to highlight the <em>right</em> photos, deals, and reviews without building a new app.</li>
+</ul>
+<p>An overlay solves the “Wild West” mess for those who already have an <strong>AI-Generated Instant Site</strong> and want tighter control.</p>
+<hr />
+<h2 id="2-what-exactly-is-the-overlay">2 | What Exactly Is the Overlay?</h2>
+<ul>
+<li>A lightweight JavaScript snippet loaded via our CDN.  </li>
+<li>Injects a transparent UI layer atop the Google Maps place-detail panel when the user visits from Chrome, Edge, or our own PWA.  </li>
+<li>Displays hero gallery, featured reviews, and live banners pulled from the owner’s microsite API.</li>
+</ul>
+<p>No changes to Google’s underlying HTML: we respect Maps’ DOM and Terms of Service by only modifying content <em>inside</em> our injected container.</p>
+<hr />
+<h2 id="3-key-ux-principles">3 | Key UX Principles</h2>
+<table>
+<thead>
+<tr>
+<th>Principle</th>
+<th>Implementation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Subtle, not spammy</strong></td>
+<td>Overlay sits in lower-right corner, collapsible by default</td>
+</tr>
+<tr>
+<td><strong>Fast</strong></td>
+<td>Adds &lt; 25 KB gzip and defers loading until Maps idle event</td>
+</tr>
+<tr>
+<td><strong>Mobile-first</strong></td>
+<td>Uses <code>position: fixed; bottom: 0</code> banner on small screens</td>
+</tr>
+<tr>
+<td><strong>Accessible</strong></td>
+<td>All elements keyboard-focusable; ARIA <code>role="complementary"</code></td>
+</tr>
+<tr>
+<td><strong>Transparent</strong></td>
+<td>“Powered by LocalSites” footer with privacy link</td>
+</tr>
+</tbody>
+</table>
+<p>Users can dismiss the overlay for 24 h; we store that preference in <code>localStorage</code>, avoiding cookies.</p>
+<hr />
+<h2 id="4-moderation-pipeline-hybrid-ai-human">4 | Moderation Pipeline (Hybrid AI + Human)</h2>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Tool</th>
+<th>SLA</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Vision filter</td>
+<td>Custom CLIP model</td>
+<td>&lt; 5 s</td>
+<td>Drop blurry / off-topic photos</td>
+</tr>
+<tr>
+<td>Text sentiment</td>
+<td>LLM zero-shot</td>
+<td>&lt; 500 ms</td>
+<td>Flag toxic or off-brand reviews</td>
+</tr>
+<tr>
+<td>Owner queue</td>
+<td>Mobile swipe UI</td>
+<td>24 h</td>
+<td>Accept / reject items</td>
+</tr>
+<tr>
+<td>Staff escalation</td>
+<td>In-house team</td>
+<td>48 h</td>
+<td>Resolve disputes, legal flags</td>
+</tr>
+</tbody>
+</table>
+<p>The same CLIP model is reused from <strong>AI-Generated Instant Sites</strong> to ensure consistency.</p>
+<hr />
+<h2 id="5-conflict-resolution-playbook">5 | Conflict-Resolution Playbook</h2>
+<ol>
+<li><strong>Duplicate Content</strong> – If Maps already shows a similar owner photo, overlay hides its duplicate to avoid redundancy.  </li>
+<li><strong>User vs. Owner Review</strong> – Owner can <em>feature</em> but never <em>delete</em> community reviews, keeping transparency.  </li>
+<li><strong>Misleading Photo</strong> – Flag sends a takedown request through Google Business Profile API and hides it in overlay until Google acts.  </li>
+<li><strong>Fraudulent Hours Edit</strong> – Overlay displays verified hours from the microsite even if a community edit is pending.</li>
+</ol>
+<p>Guidelines mirror the fairness standards explained in <strong>A Freemium Model Owners Trust</strong>.</p>
+<hr />
+<h2 id="6-latency-performance-targets">6 | Latency &amp; Performance Targets</h2>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Budget</th>
+<th>Reality on 4G</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Added network weight</td>
+<td>≤ 25 KB</td>
+<td>19 KB</td>
+</tr>
+<tr>
+<td>First Paint of overlay</td>
+<td>≤ 150 ms</td>
+<td>110 ms</td>
+</tr>
+<tr>
+<td>Interaction delay</td>
+<td>≤ 50 ms</td>
+<td>34 ms</td>
+</tr>
+</tbody>
+</table>
+<p>Speed matters because every 100 ms delay reduces Maps click-through by roughly 2 % (data from <strong>Taming the Google Maps Wild West</strong>).</p>
+<hr />
+<h2 id="7-security-privacy">7 | Security &amp; Privacy</h2>
+<ul>
+<li>Overlay only reads the current page URL; no tracking cookies.  </li>
+<li>All API calls use the microsite’s domain, secured with HTTPS and scoped JWT.  </li>
+<li>GDPR-compliant: data processors listed in our DPA; users can export or delete overlay interaction logs.</li>
+</ul>
+<p>Future privacy features—including per-country data residency—are listed on the <strong>Roadmap &amp; Next Steps</strong> page.</p>
+<hr />
+<h2 id="8-case-study-cafe-luna-lisbon">8 | Case Study – Café Luna, Lisbon</h2>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Before Overlay</th>
+<th>After Overlay</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maps “Website” CTR</td>
+<td>15 %</td>
+<td>22 %</td>
+<td>+7 pp</td>
+</tr>
+<tr>
+<td>In-store photo accuracy</td>
+<td>58 %</td>
+<td>96 % hero relevance</td>
+<td>+38 pp</td>
+</tr>
+<tr>
+<td>Reviews marked helpful</td>
+<td>14 / month</td>
+<td>49 / month</td>
+<td>×3.5</td>
+</tr>
+</tbody>
+</table>
+<p>Café Luna already used <strong>Time-Slot Deals</strong>; overlay banners doubled redemption of its 4 pm pastry happy hour.</p>
+<hr />
+<h2 id="9-integration-with-other-features">9 | Integration With Other Features</h2>
+<ul>
+<li><strong>Microsite Sync</strong> – Hero images and specials pull from the same API as the Instant Site.  </li>
+<li><strong>Time-Slot Widget</strong> – Overlay banner animates when an off-peak discount is live.  </li>
+<li><strong>Marketplace Carousel</strong> – From Growth tier up, overlay suggests nearby partner deals, fuelling <strong>The Microsite Flywheel</strong>.</li>
+</ul>
+<p>Upgrade eligibility and limits are defined in <strong>A Freemium Model Owners Trust</strong>.</p>
+<hr />
+<h2 id="10-roadmap-for-the-overlay">10 | Roadmap for the Overlay</h2>
+<table>
+<thead>
+<tr>
+<th>Quarter</th>
+<th>Planned Feature</th>
+<th>Ties To</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2025 Q4</td>
+<td>AR direction arrows inside Maps Live View</td>
+<td>Roadmap &amp; Next Steps</td>
+</tr>
+<tr>
+<td>2026 Q1</td>
+<td>Multi-location bulk moderation</td>
+<td>AI-Generated Instant Sites (chain dashboard)</td>
+</tr>
+<tr>
+<td>2026 Q2</td>
+<td>UGC reward points for high-quality photo uploads</td>
+<td>The Microsite Flywheel</td>
+</tr>
+<tr>
+<td>2026 Q3</td>
+<td>Owner-curated short-form video clips</td>
+<td>Time-Slot Deals (video vouchers)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="11-key-take-aways">11 | Key Take-Aways</h2>
+<ol>
+<li>A curated overlay restores owner control without fighting Google’s ecosystem.  </li>
+<li>Hybrid AI + human review keeps quality high and costs low.  </li>
+<li>Sub-25 KB payload means no noticeable slowdown, preserving user trust.  </li>
+<li>Overlay, microsite, and discount engine form a tight conversion loop that feeds the <strong>Microsite Flywheel</strong>.</li>
+</ol>
+<hr />
+<h2 id="12-next-reads">12 | Next Reads</h2>
+<ul>
+<li><strong>AI-Generated Instant Sites</strong> – The content engine that powers the overlay.  </li>
+<li><strong>Time-Slot Deals for Any Business</strong> – Use the overlay banner to sell off-peak slots.  </li>
+<li><strong>A Freemium Model Owners Trust</strong> – See which overlay features are free vs. paid.</li>
+</ul>
+<hr />
+<p>© 2025 – Free to share or adapt with attribution.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.50899def.min.js"></script>
+      
+    
+  </body>
+</html>
