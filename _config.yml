@@ -1,7 +1,0 @@
-title: "Ideas Home"
-description: >-
-  Simple web site about complex ideas.
-baseurl: ""
-# Set the theme so the site title appears as a return link on each page
-# (GitHub Pages will use this theme by default)
-theme: jekyll-theme-minimal
