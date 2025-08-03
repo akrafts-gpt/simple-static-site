@@ -1,6 +1,6 @@
-# Welcome to My Simple Site
+# Ideas
 
-This is the home page of my simple static website. Navigate through the pages to learn more.
+A loose collection of independent concepts spanning various fields — from mobility and food tech to ambient communication. None are directly related; they’re simply a public notebook where I park notions I find intriguing so others can read, critique, and build on them.
 
 ## Personal Virtual Embassy
 Proposes an AI ambassador that retains context, adapts tone, and negotiates small tasks within user-defined boundaries. It outlines how a virtual representative can manage tasks and communicate on your behalf.
@@ -42,13 +42,6 @@ A collection of ideas on creating better map-focused sites for local businesses.
 
 [Go to full text →](/maps/index.md)
 
-## [About](/about/index.md)
-Learn more about the purpose of this site and the ideas behind it.
-
-[Go to full text →](/about/index.md)
-
 ## [Contact](/contact/index.md)
-Offers ways to reach the author via GitHub issues or email for questions and collaboration. Get in touch easily for feedback or project ideas.
 
-[Go to full text →](/contact/index.md)
-
+## [About](/about/index.md)
