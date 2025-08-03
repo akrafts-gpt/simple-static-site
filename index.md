@@ -1,4 +1,3 @@
-# Ideas
 
 A loose collection of independent concepts spanning various fields — from mobility and food tech to ambient communication. None are directly related; they’re simply a public notebook where I park notions I find intriguing so others can read, critique, and build on them.
 
