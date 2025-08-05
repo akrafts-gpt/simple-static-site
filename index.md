@@ -41,8 +41,8 @@ A collection of ideas on creating better map-focused sites for local businesses.
 
 [Go to full text →](/maps/index.md)
 
-## Planning Your City Adventure—An AI-Driven, Community-Powered Approach
-An overview of a community-fed, AI-enhanced calendar that links nine deep-dive articles to help you plan richer outings.
+## City Outing Calendar
+A community-fed, AI-powered calendar for discovering and planning city adventures.
 
 [Go to full text →](/calendar/index.md)
 
