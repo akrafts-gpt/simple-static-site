@@ -1,8 +1,8 @@
 ---
-title: Planning Your City Adventure—An AI-Driven, Community-Powered Approach
+title: City Outing Calendar
 ---
 
-# Planning Your City Adventure—An AI-Driven, Community-Powered Approach
+# City Outing Calendar
 
 Welcome to the future of event planning! In a world of fragmented calendars and endless online feeds, our app brings everything together in one simple, user-friendly experience. We start with a calendar you’ll actually love, powered by community contributions and intelligent AI, all designed to get you **out** of your phone and **into** the real world.
 
