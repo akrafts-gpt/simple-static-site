@@ -2,6 +2,8 @@
 title: Planning Your City Adventure—An AI-Driven, Community-Powered Concept
 ---
 
+![City Adventure Calendar Concept](/assets/calendar-header.png)
+
 # Planning Your City Adventure—An AI-Driven, Community-Powered Concept
 
 ## Overview
