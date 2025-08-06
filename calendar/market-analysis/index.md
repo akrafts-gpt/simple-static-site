@@ -2,6 +2,8 @@
 title: Where We Stand: Market Landscape & Competitive Analysis
 ---
 
+![Market Analysis](/calendar/assets/market-analysis.png)
+
 # Where We Stand: Market Landscape & Competitive Analysis
 
 Understanding the competitive landscape and market opportunity is essential for positioning our AI-driven, community-powered event planner. In this article, we survey existing solutions, compare key features, conduct a SWOT analysis, estimate market size, and outline go-to-market strategies by region.

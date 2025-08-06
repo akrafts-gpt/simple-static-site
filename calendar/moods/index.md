@@ -2,6 +2,8 @@
 title: Mood as Your Map: From “Relaxed” to “Energized”
 ---
 
+![Mood Map](/calendar/assets/moods.png)
+
 # Mood as Your Map: From “Relaxed” to “Energized”
 
 People don’t just seek events—they seek experiences that match their energy and mindset. That’s why we’ve mapped moods onto a warm-to-cool spectrum, letting you plan with intention and balance.

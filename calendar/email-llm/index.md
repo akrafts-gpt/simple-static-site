@@ -2,6 +2,8 @@
 title: Inbox → Insight: Email Forwarding & LLM-Powered Event Extraction
 ---
 
+![Email to LLM Pipeline](/calendar/assets/email-llm.png)
+
 # Inbox → Insight: Email Forwarding & LLM-Powered Event Extraction
 
 Transforming scattered event notifications into structured suggestions is at the heart of our discovery engine. This article dives into how a simple email-forwarding workflow and an LLM-based parsing pipeline deliver privacy-safe, high-quality event data.

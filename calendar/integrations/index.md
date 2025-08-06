@@ -2,6 +2,8 @@
 title: Staying Out, Not Stuck In: Integrations & Non-Intrusive Reminders
 ---
 
+![Integrations](/calendar/assets/integrations.png)
+
 # Staying Out, Not Stuck In: Integrations & Non-Intrusive Reminders
 
 Our app’s mission is to help you plan and get out—without trapping you in another endless feed of notifications. In this article, we examine how seamless integrations and light-touch alerts keep you on time without cluttering your screen.

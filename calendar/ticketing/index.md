@@ -2,6 +2,8 @@
 title: Money Moves & Future Features: Ticket Sales, Exchanges & Beyond
 ---
 
+![Ticketing Roadmap](/calendar/assets/ticketing.png)
+
 # Money Moves & Future Features: Ticket Sales, Exchanges & Beyond
 
 While our app starts as a purely planning tool, a robust ticketing ecosystem is a natural next step. In this article, we outline a phased roadmap for monetization, community-driven exchanges, and eventual in-app ticket sales and event creation.

@@ -2,6 +2,8 @@
 title: Building the World’s Event Wiki: Community Contributions & Curation
 ---
 
+![Community Curation](/calendar/assets/community.png)
+
 # Building the World’s Event Wiki: Community Contributions & Curation
 
 To keep our event database fresh, accurate, and inclusive, we’ve adopted a wiki-style model where community members play key roles in contributing and curating content.
