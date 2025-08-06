@@ -2,6 +2,8 @@
 title: Who We’re Building For: Traveler & After-Work Explorer Personas
 ---
 
+![User Personas](/calendar/assets/personas.png)
+
 # Who We’re Building For: Traveler & After-Work Explorer Personas
 
 To craft an experience that truly resonates, we’ve identified two core user segments:

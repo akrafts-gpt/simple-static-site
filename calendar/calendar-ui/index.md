@@ -2,6 +2,8 @@
 title: A Calendar You’ll Actually Love: Designing the Calendar-First UI
 ---
 
+![Calendar-First UI](/calendar/assets/calendar-ui.png)
+
 # A Calendar You’ll Actually Love: Designing the Calendar-First UI
 
 Your calendar is the home screen—it should be informative, uncluttered, and intuitive at any zoom level. In this article, we explore how a calendar-first approach can transform discovery and planning.

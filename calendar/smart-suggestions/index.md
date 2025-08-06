@@ -2,6 +2,8 @@
 title: Smart Suggestions: Personalization & Chained Event Recommendations
 ---
 
+![Smart Suggestions](/calendar/assets/smart-suggestions.png)
+
 # Smart Suggestions: Personalization & Chained Event Recommendations
 
 Delivering the right events at the right time takes more than a simple list—it requires intelligent ranking, personalized filtering, and context-aware sequencing. In this article, we break down how our app transforms raw event data into curated, dynamic suggestions.
