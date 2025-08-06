@@ -1,49 +1,31 @@
 ---
-title: City Outing Calendar
+title: Planning Your City Adventure—An AI-Driven, Community-Powered Concept
 ---
 
-# City Outing Calendar
+# Planning Your City Adventure—An AI-Driven, Community-Powered Concept
 
-Welcome to the future of event planning! In a world of fragmented calendars and endless online feeds, our app brings everything together in one simple, user-friendly experience. We start with a calendar you’ll actually love, powered by community contributions and intelligent AI, all designed to get you **out** of your phone and **into** the real world.
+## Overview
 
-This overview introduces the core vision and links to nine deep-dive articles that explore each piece of the puzzle in detail.
+Ever feel like finding something fun to do takes forever? This concept flips the script by turning your calendar into a discovery playground. Imagine a calendar that not only shows your meetings but also nudges you with cool events nearby—powered by AI magic and community know-how.
 
----
+## The Problem
 
-## 📑 Series Contents
+Right now, you probably juggle newsletters, social media, and venue emails just to see what’s happening. Then you load everything into a calendar built for work, not play, and end up squinting at tiny dots. On top of that, constant notifications keep you glued to your phone instead of out exploring.
 
-1. [Who We’re Building For: Traveler & After-Work Explorer Personas](./personas/)
-   Discover the two primary user groups—weekend hosts showing friends around and busy office workers seeking post-work plans. We’ll unpack their motivations, pain points, and decision-making processes, complete with day-in-the-life user journeys and illustrative scenarios.
+## The Big Idea
 
-2. [A Calendar You’ll Actually Love: Designing the Calendar-First UI](./calendar-ui/)
-   Dive into our simplified, zoomable calendar interface that balances a high-level overview with detailed daily views. This article includes wireframes, interaction patterns (swipe cards, tile grids, story-style snippets), and the UX principles guiding each design choice.
+Here’s how it works: you forward event invites to a special email (no inbox access needed), and an AI parses out names, dates, venues, and images. Those events land in a wiki-style hub where local enthusiasts, bloggers, and moderators add ratings, descriptions, and upvotes.
 
-3. [Mood as Your Map: From “Relaxed” to “Energized”](./moods/)
-   Learn how we translate a warm-to-cool spectrum of moods—relaxation, exploration, focus, activity—into a visual heat-map that shows your month at a glance. We’ll cover color mappings, mood category definitions, and examples of how this guides healthier, more balanced planning.
+Back in your calendar, you start with a [mood map](/calendar/moods/)—warm colors for chill days, cool for action-packed ones. Zoom into any day to swipe through handpicked events, then tap to save or dismiss. Want tacos before that concert? Our [smart suggestions](/calendar/smart-suggestions/) chain dinner spots, shows, and after-parties into one smooth itinerary.
 
-4. [Inbox → Insight: Email Forwarding & LLM-Powered Event Extraction](./email-llm/)
-   See how a simple “forward-to-service” workflow turns event emails into structured calendar suggestions while preserving privacy. You’ll get a behind-the-scenes look at our LLM parsing pipeline, schema mapping (title, time, venue, category, image), and before/after email samples.
+## What Makes It Awesome
 
-5. [Building the World’s Event Wiki: Community Contributions & Curation](./community/)
-   Explore our wiki-style repository model where users, bloggers, and moderators collaborate to keep event data fresh and accurate. We’ll detail contributor roles, moderation tools, upvote/rating mechanics, and gamification elements like badges and “trusted source” flags.
+We’re all about keeping things simple and fun. No endless feeds, no pushy alerts—just helpful nudges when it matters. Your saved plans export in one tap to Google, Apple, or Outlook Calendar ([learn how](/calendar/integrations/)), so reminders happen in the apps you already love.
 
-6. [Smart Suggestions: Personalization & Chained Event Recommendations](./smart-suggestions/)
-   Unpack the algorithms behind our location-aware, behavior-driven ranking system. From filtering by popularity and past interest to chaining sequences (e.g., drinks → concert → late-night stroll), we’ll illustrate real user flows and the data signals that power each suggestion.
+## Looking Ahead
 
-7. [Staying Out, Not Stuck In: Integrations & Non-Intrusive Reminders](./integrations/)
-   Learn how one-tap exports to Google/Apple Calendars and “only when it matters” alerts (cancellations, time changes) keep you on schedule without cluttering your screen. We’ll share integration workflows, API considerations, and UX mockups for light-touch reminders.
+Down the road, this concept can grow tickets and exchanges into the mix. Think affiliate links, peer-to-peer swaps, even in-app sales—all without cluttering your planning flow ([see the roadmap](/calendar/ticketing/)). And if you want the full competitive picture, check out our [market analysis](/calendar/market-analysis/).
 
-8. [Money Moves & Future Features: Ticket Sales, Exchanges & Beyond](./ticketing/)
-   Map out our monetization roadmap—from affiliate ticket sales to a community-driven exchange platform inspired by TicketSwap. This piece will cover potential partnership models, secure transaction frameworks, and a timeline for in-app ticketing and user-created events.
+## Ready to Roll?
 
-9. [Where We Stand: Market Landscape & Competitive Analysis](./market-analysis/)
-   Survey the current ecosystem—Google/Apple Calendars, Facebook Events, Meetup, Resident Advisor—and pinpoint our unique value proposition. We’ll present competitor feature matrices, SWOT insights, market sizing, and go-to-market strategies tailored by region.
-
----
-
-> **Next Steps**  
-> 1. Choose a sub-article to explore first—personas and market analysis often provide a solid foundation.  
-> 2. Click the links above to dive into each topic.  
-> 3. Share feedback or questions as you go; this roadmap is iterative, and your insights will shape the journey!
-
-Happy planning, and here’s to getting outside and touching some grass! 🌿
+This blueprint is your starter pack for building an event planner that feels personal, intuitive, and totally you. Dive into each section to see the details, then take this idea and make it your own. Happy adventuring! 🌿
