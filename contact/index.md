@@ -6,6 +6,12 @@ You can reach me by opening an issue on this repository or sending an email to e
 
 ---
 
+<a class="btn" href="https://www.google.com/maps/contrib/114485700303876424618/reviews" target="_blank" rel="noopener">
+  See all my Google Maps reviews →
+</a>
+
+---
+
 <script src="https://giscus.app/client.js"
         data-repo="akrafts-gpt/simple-static-site"
         data-repo-id="R_kgDOPWwKHQ"
