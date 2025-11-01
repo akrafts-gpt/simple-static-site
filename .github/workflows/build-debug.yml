@@ -1,0 +1,24 @@
+name: Build Debug Sample App
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build debug artifact
+        run: |
+          chmod +x scripts/build-debug.sh
+          scripts/build-debug.sh
+
+      - name: Upload debug artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: sample-app-debug
+          path: build/sample-app-debug.tar.gz
+          if-no-files-found: error
